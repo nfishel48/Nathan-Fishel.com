@@ -1,0 +1,19 @@
+
+/*
+This is the global css file for this site
+*/
+
+
+/*
+This is used to add a cover photo to the index page
+https://stackoverflow.com/questions/39427416/full-page-image-background-using-bulma-io
+*/
+.bg-img { 
+    background-image: url(bridge.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+
+}
