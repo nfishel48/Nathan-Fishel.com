@@ -50,20 +50,37 @@ a.navbar-item:hover{
 }
 
 .button.is-link.is-inverted{
+    color: white;
+    background-color: #0078d7;
+}
+.button.is-link.is-inverted:hover{
     color: #0078d7;
+    background-color: #EEEEEE;
 }
 
 /*
 Styles for normal nav bar
 */
 .main-nav{
-    background-color: #0078d7;
+    background-color: white;
 }
 .nav-item{
     background-color: white;
     ;
 }
+.navbar-item img{
+    max-height: 2rem;
+}
 
+
+.main-body{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.body-list{
+   
+}
 .circle-pic{
     border-radius: 50%;
     width: 50%;

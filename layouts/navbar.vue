@@ -6,13 +6,12 @@
       <b-navbar class="main-nav">
           <template slot="brand">
               <b-navbar-item class="main-nav" tag="router-link" :to="{ path: '/' }">
-              <h3>Nathaniel Fishel</h3>
-                  <!--
+                  
                   <img
-                      src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-                      alt="Lightweight UI components for Vue.js based on Bulma"
+                      src="~/assets/css/logo.png"
+                      alt="My logo"
                   >
-                  -->
+                 
               </b-navbar-item>
           </template>
           <template slot="start" class="main-nav">
@@ -48,11 +47,13 @@ export default {
       data () {
     return {
       title: 'Nathaniel Fishel'
+      
     }
   },
   head () {
     return {
       title: this.title,
+      
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }
