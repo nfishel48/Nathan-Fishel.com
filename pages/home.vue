@@ -11,6 +11,7 @@
         <img class="circle-pic" src="~/assets/css/me.png" alt="a picture of me">
      </div>
    </div>
+   
   </section>
   
 </template>

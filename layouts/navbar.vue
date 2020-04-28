@@ -20,18 +20,18 @@
           </template>
 
           <template slot="end" class="main-nav">
-               <b-navbar-item class="nav-item"  tag="a" href="#">
+               <b-navbar-item class="nav-item"  tag="a" href="home">
                   Home
               </b-navbar-item>
-              <b-navbar-item class="nav-item" href="#">
+              <b-navbar-item class="nav-item" href="about">
                   About Me
               </b-navbar-item>
-              <b-navbar-item class="nav-item"  href="#">
+              <b-navbar-item class="nav-item"  href="portfolio">
                   Portflolio
               </b-navbar-item>
-              <b-navbar-item class="main-nav"  tag="div">
+              <b-navbar-item class="main-nav"  tag="div" >
                   <div class="buttons">
-                      <a class="button button is-link is-inverted">
+                      <a class="button button is-link is-inverted" href="contact">
                           <strong>Contact Me</strong>
                       </a>
                   </div>
@@ -42,3 +42,22 @@
   <nuxt/>
 </div>   
 </template>
+
+<script>
+export default {
+      data () {
+    return {
+      title: 'Nathaniel Fishel'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
+  },
+}
+</script>
