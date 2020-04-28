@@ -17,7 +17,7 @@
         </div>
         
         <a class="subtitle">
-            <b-button tag="a" href="home" class="button is-large is-link">Click here to continue</b-button>
+            <b-button tag="a" href="./home" class="button is-large is-link">Click here to continue</b-button>
         </a>
       </div>
     </div>

@@ -19,18 +19,18 @@
           </template>
 
           <template slot="end" class="main-nav">
-               <b-navbar-item class="nav-item"  tag="a" href="home">
+               <b-navbar-item class="nav-item"  tag="a" href="./home">
                   Home
               </b-navbar-item>
-              <b-navbar-item class="nav-item" href="about">
+              <b-navbar-item class="nav-item" href="./about">
                   About Me
               </b-navbar-item>
-              <b-navbar-item class="nav-item"  href="portfolio">
+              <b-navbar-item class="nav-item"  href="./portfolio">
                   Portflolio
               </b-navbar-item>
               <b-navbar-item class="main-nav"  tag="div" >
                   <div class="buttons">
-                      <a class="button button is-link is-inverted" href="contact">
+                      <a class="button button is-link is-inverted" href="./contact">
                           <strong>Contact Me</strong>
                       </a>
                   </div>
