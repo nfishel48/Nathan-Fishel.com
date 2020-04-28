@@ -2,10 +2,10 @@
 
 <template>
   <div id ="content">
-    <div id="main-nav">
-      <b-navbar>
+    <div>
+      <b-navbar class="main-nav">
           <template slot="brand">
-              <b-navbar-item tag="router-link" :to="{ path: '/' }">
+              <b-navbar-item class="main-nav" tag="router-link" :to="{ path: '/' }">
               <h3>Nathaniel Fishel</h3>
                   <!--
                   <img
@@ -15,30 +15,23 @@
                   -->
               </b-navbar-item>
           </template>
-          <template slot="start">
-              <b-navbar-item tag="a" href="#">
-                  Home
-              </b-navbar-item>
-              <b-navbar-item href="#">
-                  Portflolio
-              </b-navbar-item>
-              <b-navbar-dropdown label="Info">
-                  <b-navbar-item href="#">
-                      About
-                  </b-navbar-item>
-                  <b-navbar-item href="#">
-                      Resume
-                  </b-navbar-item>
-                  <b-navbar-item href="#">
-                      Contact
-                  </b-navbar-item>
-              </b-navbar-dropdown>
+          <template slot="start" class="main-nav">
+             
           </template>
 
-          <template slot="end">
-              <b-navbar-item tag="div">
+          <template slot="end" class="main-nav">
+               <b-navbar-item class="nav-item"  tag="a" href="#">
+                  Home
+              </b-navbar-item>
+              <b-navbar-item class="nav-item" href="#">
+                  About Me
+              </b-navbar-item>
+              <b-navbar-item class="nav-item"  href="#">
+                  Portflolio
+              </b-navbar-item>
+              <b-navbar-item class="main-nav"  tag="div">
                   <div class="buttons">
-                      <a class="button is-primary">
+                      <a class="button button is-link is-inverted">
                           <strong>Contact Me</strong>
                       </a>
                   </div>

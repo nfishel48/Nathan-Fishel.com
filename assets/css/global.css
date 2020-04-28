@@ -17,3 +17,60 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
     background-color: #999;
 
 }
+
+/*
+Text on landing page
+*/
+.main-text{
+    padding: 5%;
+    font-size: 400%;
+    font-weight: 200;
+}
+
+/*
+Button on Landing page
+*/
+.button.is-link{
+    color:#EEEEEE;
+    background-color: #0078d7;
+}
+.button.is-link:hover{
+    color:#EEEEEE;
+    background-color: #0369bdf5;
+}
+
+/*
+Special styles for landing page nav bar
+*/
+a.navbar-item:hover{
+    background-color: #0078d7;
+    color: white;
+}
+
+.button.is-link.is-inverted{
+    color: #0078d7;
+}
+
+/*
+Styles for normal nav bar
+*/
+.main-nav{
+    background-color: #0078d7;
+}
+.nav-item{
+    background-color: white;
+    ;
+}
+
+.circle-pic{
+    border-radius: 50%;
+    width: 50%;
+    padding: 20px;
+}
+/*
+Global Styles
+*/
+body{
+    background-color: #EEEEEE;
+}
+

@@ -2,9 +2,9 @@
   <section class="section" style="padding:0px;">
     
     <!-- Front page photo-->
-      <section class="hero bg-img is-success is-fullheight">
+      <section class="hero bg-img  is-fullheight">
     <!-- Hero head: will stick at the top -->
-    <div class="hero-head">
+    <div id="hhead" class="hero-head">
       <header class="navbar">
         <div class="container">
           <div class="navbar-brand">
@@ -22,7 +22,7 @@
           </div>
           <div id="navbarMenuHeroC" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item is-active">
+              <a class="navbar-item is-active" href="home">
                 Home
               </a>
               <a class="navbar-item">
@@ -32,10 +32,7 @@
                 Portfolio
               </a>
               <span class="navbar-item">
-                <a class="button is-success is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
+                <a class="button is-link is-inverted">
                   <span>Contact me</span>
                 </a>
               </span>
@@ -48,11 +45,14 @@
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 id="text" class="title" onload="typewriter()">
-          
-        </h1>
+        <div class=main-text>
+          <h1 id="text" class="title" >
+            You have reached Nathaniel Fishel's Portfolio!
+          </h1>
+        </div>
+        
         <h2 class="subtitle">
-          Subtitle
+            <button class="button is-large is-link">Click here to continue</button>
         </h2>
       </div>
     </div>
@@ -65,48 +65,11 @@
         </div>
       </nav>
     </div>
+ </section>
+ </section>
 
-  </section>
-  
-    <div class="columns is-mobile">
-    
-      <card
-        title="Free"
-        icon="github-circle"
-      >
-        Open source on <a href="https://github.com/buefy/buefy">
-          GitHub
-        </a>
-      </card>
+    <!-- Below this is outside of image -->
 
-      <card
-        title="Responsive"
-        icon="cellphone-link"
-      >
-        <b class="has-text-grey">
-          Every
-        </b> component is responsive
-      </card>
-
-      <card
-        title="Modern"
-        icon="alert-decagram"
-      >
-        Built with <a href="https://vuejs.org/">
-          Vue.js
-        </a> and <a href="http://bulma.io/">
-          Bulma
-        </a>
-      </card>
-
-      <card
-        title="Lightweight"
-        icon="arrange-bring-to-front"
-      >
-        No other internal dependency
-      </card>
-    </div>
-  </section>
 </template>
 
 <script>
@@ -115,22 +78,36 @@ import Card from '~/components/Card'
 export default {
   name: 'HomePage',
   
+  
+  methods: {
+    say: function (message) {
+      alert(message)
+    }
+  },
+  //el:"#text",
+  //mounted:function(){
+    //this.method1() //method will exuctue on page load
+  //},
+  methods:{
+    //Method to do type writer animation on Title
+    // method1:function(){
+    
+    //   var i = 0;
+    //   var txt = 'Lorem ipsum dummy text blabla.';
+    //   var speed = 50; 
+    //   for (i = 0; i < txt.length; i++) {    // make for loop to fix issue with the set timeout funcion
+    //     document.getElementById("text").innerHTML += txt.charAt(i);
+    //     console.log("working");
+    //     setTimeout(this.method2(), 5000);
+    //   }
+    // },
+  },
+
 
   components: {
     Card
   }
 }
 
-var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("text").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
 
 </script>
