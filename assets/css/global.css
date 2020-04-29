@@ -25,9 +25,13 @@ Text on landing page
     padding: 5%;
     font-size: 400%;
     font-weight: 200;
+    font-family: 'Spartan', sans-serif;
+    color: #0078d7;
 }
 .title{
-    color: #EEEEEE;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
 }
 /*
 Button on Landing page
@@ -35,10 +39,14 @@ Button on Landing page
 .button.is-link{
     color:#EEEEEE;
     background-color: #0078d7;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
 }
 .button.is-link:hover{
     color:#EEEEEE;
     background-color: #0369bdf5;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
 }
 
 /*
@@ -77,9 +85,17 @@ Styles for normal nav bar
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+    font-family: 'Spartan', sans-serif;
+    color: white;
 }
 .body-list{
-   
+    font-family: 'Spartan', sans-serif;
+    color: white;
+}
+.list-item{
+    padding-bottom: 10px;
+    font-family: 'Spartan', sans-serif;
+    color: white;
 }
 .circle-pic{
     border-radius: 50%;
@@ -90,9 +106,40 @@ Styles for normal nav bar
 Global Styles
 */
 body{
-    background-color: #EEEEEE;
+    background-color: #505050;
+    min-height: 100%;
+   
+    
 }
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
 html{
-    background-color: #EEEEEE;
+    background-color: #505050;
+   
 }
 
+.padding{
+    padding: 10px;
+}
+.is-blue{
+    background-color: #0078d7;
+    color:white;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+}
+.is-grey{
+    background-color: #EEEEEE;
+    color:black;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+}
+.is-greytwo{
+    background-color: #737373;
+    color:white;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+}
