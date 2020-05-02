@@ -14,31 +14,39 @@
                     <p class="subtitle">Major: Computer Science – Applied</p>
                     <p class="subtitle">Received Education First Scholarship – Full tuition</p>
                     <p class="subtitle">Relevant courses:</p>
+                    <div class="content">
                         <ul>
-                        <li>-Algorithms and Data structures</li>	
-                        <li>-Computer Organization </li>
-                        <li>-Programming Languages</li>		
-                        <li>-Discrete Mathematics </li>
+                            <li>Algorithms and Data structures</li>	
+                            <li>Computer Organization </li>
+                            <li>Programming Languages</li>		
+                            <li>Discrete Mathematics </li>
+                            <li>Operating systems</li>
+                            <li>Database Principles</li>
                         </ul>
+                    </div>
                     </article>
                     <article class="tile is-child notification is-grey">
                     <p class="title">Languages and Frameworks</p>
                     <p class="subtitle">Backend:</p>
+                    <div class="content">
                         <ul>
-                            <li>-Java</li>
-                            <li>-Python</li>
-                            <li>-C</li>
-                            <li>-PHP</li>
-                            <li>-SQL</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
                         </ul>
+                    </div>
                         <br>
-                        <p class="subtitle">Frontend:</p>
-                            <ul>
-                                <li>HTML and CSS</li>
-                                <li>JavaScript</li>
-                                <li>Vue.js</li>
-                                <li>Nuxt.js</li>
-                            </ul>
+                    <p class="subtitle">Frontend:</p>
+                    <div class="content">
+                        <ul>
+                            <li>HTML and CSS</li>
+                            <li>JavaScript</li>
+                            <li>Vue.js</li>
+                            <li>Nuxt.js</li>
+                        </ul>
+                    </div>
                     </article>
                 </div>
         </div>
