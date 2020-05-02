@@ -28,9 +28,9 @@
               </b-navbar-item>
               <b-navbar-item class="main-nav"  tag="div" >
                   <div class="buttons">
-                      <a class="button button is-link is-inverted" tag="router-link" :to="{ path: '/contact' }">
+                      <b-button class="button button is-link is-inverted" tag="router-link" :to="{ path: '/contact' }">
                           <strong>Contact Me</strong>
-                      </a>
+                      </b-button>
                   </div>
               </b-navbar-item>
           </template>
@@ -69,10 +69,6 @@ export default {
       ]
     }
   },
-  head: {
-  link:[{
-    href: 'https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap', rel: "stylesheet"
-  }]
-}
+
 }
 </script>
