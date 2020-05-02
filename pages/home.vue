@@ -5,8 +5,8 @@
       <div class="columns">
         <div  class="column main-text">
           <h1>Nathaniel Fishel</h1>
-          <b-button tag="a" href="portfolio" class="button is-medium is-link">View my work</b-button>
-          <b-button tag="a" href="about" class="button is-medium is-dark">Read my résumé</b-button>
+          <b-button tag="router-link" :to="{ path: '/portfolio' }" class="button is-medium is-link">View my work</b-button>
+          <b-button tag="router-link" :to="{ path: '/about' }" class="button is-medium is-dark">Read my résumé</b-button>
         </div>
 
         
