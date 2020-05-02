@@ -8,7 +8,7 @@
             <img  class="image is-128x128" src="~/assets/css/website.png" alt="Image">
             <p class="subtitle">My website</p>
             <p class="content">
-                This website you looking at was built using Vue.js Nuxt.js <br>
+                This website you're looking at was built using Vue.js Nuxt.js <br>
                 built on a modern web development architecture, the Jamstack.<br>
                 Dynamic functionalities are handled by JavaScript. There is no <br>
                 restriction on which framework or library you must use. Server <br>
@@ -22,7 +22,7 @@
         </div>
           <div class="level-item has-text-centered">
             <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/tech.jpg" alt="placeholder">
+            <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
             <p class="heading">Coming soon</p>
             <p class="content" style="color:white;">
                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
@@ -39,7 +39,7 @@
           </div>
         <div class="level-item has-text-centered">
             <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/tech.jpg" alt="placeholder">
+            <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
             <p class="heading">Coming soon</p>
             <p class="content" style="color:white;">
                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
@@ -61,7 +61,7 @@
         <nav class="level">
         <div class="level-item has-text-centered">
             <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/tech.jpg" alt="placeholder">
+            <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
             <p class="heading">Coming soon</p>
             <p class="content" style="color:white;">
                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
@@ -79,7 +79,7 @@
           </div>
           <div class="level-item has-text-centered">
             <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/tech.jpg" alt="placeholder">
+            <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
             <p class="heading">Coming soon</p>
             <p class="content" style="color:white;">
                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
@@ -97,7 +97,7 @@
           </div>
         <div class="level-item has-text-centered">
             <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/tech.jpg" alt="placeholder">
+            <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
             <p class="heading">Coming soon</p>
             <p class="content" style="color:white;">
              "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
