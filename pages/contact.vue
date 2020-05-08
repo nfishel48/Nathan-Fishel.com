@@ -2,7 +2,13 @@
     <section>
         <h1 class="main-text" style=" padding-bottom: 1%;">Contact me</h1>
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
-        <form id="contact-form" name="contact" netlify>
+        <form id="contact-form" 
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        
+        >
             <b-field label="Name">
                 <b-input v-model="name"
                 type="text"
