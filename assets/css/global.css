@@ -23,30 +23,33 @@ Text on landing page
 */
 .main-text{
     padding: 5%;
-    font-size: 400%;
-    font-weight: 200;
-    font-family: 'Spartan', sans-serif;
-    color: #0078d7;
+    font-size: 400% ;
+    font-weight: 200 ;
+    font-family: 'Spartan', sans-serif ;
+    color: #0078d7 ;
 }
 .title{
-    color: black;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400;
+    color: black ;
+    font-family: 'Spartan', sans-serif ;
+    font-weight: 400 ;
+  
 }
 /*
 Button on Landing page
 */
 .button.is-link{
-    color:#EEEEEE;
-    background-color: #0078d7;
+    color:#EEEEEE ;
+    background-color: #0078d7 ;
     font-family: 'Spartan', sans-serif;
     font-weight: 200;
+   
 }
 .button.is-link:hover{
     color:#EEEEEE;
     background-color: #0369bdf5;
     font-family: 'Spartan', sans-serif;
     font-weight: 200;
+  
 }
 
 /*
@@ -148,4 +151,21 @@ html{
     font-size: small;
     overflow-wrap: break-word;
     
+}
+#contact-form{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    color: #0078d7; 
+    font-size: 400% ;
+    font-weight: 200 ;
+    font-family: 'Spartan', sans-serif ;
+}
+
+.label{
+    color:  #0078d7; 
+}
+
+.input, .taginput .taginput-container.is-focusable, .textarea, .select select{
+    background-color: #EEEEEE;
 }

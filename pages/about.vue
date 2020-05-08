@@ -1,8 +1,11 @@
 <template>
     <section>
+        <h1 class="main-text">About me</h1>
      <div class="padding">
      </div>
+      
         <div class="tile is-ancestor">
+           
             <div class="tile is-vertical is-4">
                 <div class="tile">
                 <div class="tile is-parent is-vertical">
