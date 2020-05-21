@@ -4,12 +4,8 @@
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
   
         
-        <form
-            name="ask-question"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-        >
+        <form name="ask-question" action="" method="post" netlify>
+           
                     <input type="hidden" name="form-name" value="ask-question" />
                     <p>
                          <b-field label="Name" class="main-body" style="font-size:150%; padding-left: 5%;">
