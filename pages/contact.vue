@@ -23,7 +23,7 @@
                         </b-field>
                     </p>
         <div style="font-size:150%; padding-left: 5%;">
-            <b-button  type="is-success" outlined>Submit</b-button>
+            <input class="form-button" type="submit" value="Send message" />
         </div>
         </form>
         
