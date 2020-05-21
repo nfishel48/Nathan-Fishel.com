@@ -4,7 +4,7 @@
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
   
         
-        <form name="ask-question" action="" method="post" netlify>
+        <!-- <form name="ask-question" action="" method="post" netlify>
            
                     <input type="hidden" name="form-name" value="ask-question" />
                     <p>
@@ -25,8 +25,34 @@
         <div style="font-size:150%; padding-left: 5%;">
             <input class="form-button" type="submit" value="Send message" />
         </div>
-        </form>
+        </form> -->
         
+
+
+       
+  <div class="container">
+    <h1 class="title">
+      Contact
+    </h1>
+    <div class="content">
+      <form name="contact" action="" method="post">
+        <label class="form-label" for="name">
+          Name:
+        </label>
+        <input class="form-field" name="name" id="name" />
+        <label class="form-label" for="email">
+          Email:
+        </label>
+        <input class="form-field" name="email" id="email" />
+        <label class="form-label" for="message">
+          Message:
+        </label>
+        <textarea class="form-field" name="message" id="message"></textarea>
+        <input class="form-button" type="submit" value="Send message" />
+      </form>
+    </div>
+  </div>
+
 
 
     </section>
