@@ -36,7 +36,8 @@
     </h1>
     <div class="content">
       <form name="contact" action="" method="post" netlify>
-        <input type="hidden" name="form-name" value="contact" />
+
+        <input type="hidden" name="contact" value="contact" />
         <label class="form-label" for="name">
           Name:
         </label>
