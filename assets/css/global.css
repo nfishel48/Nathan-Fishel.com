@@ -17,6 +17,24 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
     background-color: #999;
 
 }
+a {
+    color: #0078d7 ;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    margin-bottom: 5%;
+   overflow: visible;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display:inline;
+}
+
 
 /*
 Text on landing page

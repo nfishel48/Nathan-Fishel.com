@@ -1,6 +1,6 @@
 <template>
   <section>
-   
+   <script src="https://kit.fontawesome.com/4faac6e63e.js" crossorigin="anonymous"></script>
    <section>
       <div class="columns">
         <div  class="column main-text">
@@ -10,8 +10,17 @@
         </div>
 
         
-        <div class="column">
-            <!-- <img class="circle-pic" src="~/assets/css/me.png" alt="a picture of me"> -->
+        <div class="column main-text">
+            <span class="icon">
+              <a href="https://github.com/nfishel48">
+              <i class="fab fa-github"></i>
+              </a>
+            </span>
+            <span style="padding-left: 10%;" class="icon">
+              <a href="https://www.linkedin.com/in/nathaniel-fishel-722a72165/" >
+              <i class="fab fa-linkedin"></i>
+              </a>
+            </span>
         </div>
       </div>
    </section>

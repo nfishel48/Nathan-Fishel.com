@@ -100,8 +100,10 @@
 
 </div>
 
+<div style="padding-bottom: 200px;"
+    ></div>
 
-    </section>
+</section>
 </template>
 <script>
 export default {

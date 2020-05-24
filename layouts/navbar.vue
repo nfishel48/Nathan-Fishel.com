@@ -39,15 +39,46 @@
 
   <nuxt/>
 
-   <!-- <footer class="footer">
+   <footer class="footer">
     <div class="content has-text-centered">
-      <p>
-      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-      </p>
+      <div class="columns"> 
+        <div class="column">
+          <a>Sitemap <i class="fas fa-map-signs"></i> </a>
+        </div>
+
+
+        <div class="column"> 
+          <div>
+            
+            <span class="icon">
+              <a href="https://github.com/nfishel48">
+              <i class="fab fa-github"></i>
+              </a>
+            </span>
+
+            <span class="icon">
+              <a href="https://www.linkedin.com/in/nathaniel-fishel-722a72165/" >
+              <i class="fab fa-linkedin"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+
+        <div class="column"> 
+            <p>
+            <i class="far fa-copyright"></i> 
+            {{year}}
+            Nathaniel Fishel
+            </p>
+          
+          
+        </div>
+
+      </div>
     </div>
-  </footer>  -->
+  </footer>
+
 </div>   
 </template>
 
@@ -55,8 +86,8 @@
 export default {
       data () {
     return {
-      title: 'Nathaniel Fishel'
-      
+      title: 'Nathaniel Fishel',
+      year: '2020'
     }
   },
   head () {
@@ -67,6 +98,7 @@ export default {
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }
       ]
+
     }
   },
 
