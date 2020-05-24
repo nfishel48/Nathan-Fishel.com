@@ -3,7 +3,7 @@
         <h1 class="main-text" style=" padding-bottom: 1%;">Contact me</h1>
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
   
-        
+        <!--
         <form name="ask-question" action="" method="post" netlify>
            
                     <input type="hidden" name="form-name" value="ask-question" />
@@ -26,7 +26,7 @@
             <input class="form-button" type="submit" value="Send message" />
         </div>
         </form> 
-        
+        -->
 
 
        
@@ -36,7 +36,7 @@
       Contact
     </h1>
     <div class="content">
-      <form name="contact" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
+      <form name="contact" action="" netlify-honeypot="bot-field" method="post" netlify>
         <input type="hidden" name="form-name" value="contact" />
         <p class="hidden">     
           <label>Don’t fill this out: <input name="bot-field"></label>   
