@@ -17,6 +17,24 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
     background-color: #999;
 
 }
+@media only screen and (max-width: 800px) {
+    body{ 
+    
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    .fab{
+        padding-left: 60% !important;
+        padding-right: 60% !important;
+        position: relative;
+        top: -5rem; 
+    }
+    .is-dark{
+        position: relative;
+        top: -2rem; 
+    }
+}
 a {
     color: #0078d7 ;
 }
@@ -34,6 +52,7 @@ footer {
     overflow: hidden;
     display:inline;
 }
+
 
 
 /*
