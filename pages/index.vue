@@ -51,28 +51,6 @@ export default {
     }
   },
   
- 
-
-  //el:"#text",
-  //mounted:function(){
-    //this.method1() //method will exuctue on page load
-  //},
-  methods:{
-    //Method to do type writer animation on Title
-    // method1:function(){
-    
-    //   var i = 0;
-    //   var txt = 'Lorem ipsum dummy text blabla.';
-    //   var speed = 50; 
-    //   for (i = 0; i < txt.length; i++) {    // make for loop to fix issue with the set timeout funcion
-    //     document.getElementById("text").innerHTML += txt.charAt(i);
-    //     console.log("working");
-    //     setTimeout(this.method2(), 5000);
-    //   }
-    // },
-  },
-
-
   components: {
     Card
   }
