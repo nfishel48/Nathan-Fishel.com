@@ -3,16 +3,29 @@
         <h1 class="main-text" style=" padding-bottom: 1%;">Contact me</h1>
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
   
-    <form name="contact" action="" method="post" netlify>
-        <input type="hidden" name="form-name" value="contact" />
-        <label for="name">Name</label>
-        <input type="text" name="name" />
-        <label for="email">Email</label>
-        <input type="email" name="email" />
-        <label for="message">Message </label>
-        <textarea name="message"></textarea>
-         <input type="submit" value="Submit">
-    </form>
+
+        <div style="padding-left:10%; padding-right:10%;">
+            <form name="contact" action="" method="post" netlify>
+                <!-- Honey Pot -->
+                <input type="hidden" name="form-name" value="contact" />
+
+                <div style="padding-top: 2%;">
+                    <label class="label"  for="name">Name</label>
+                    <input  class="input" type="text" name="name" />
+                </div>
+                <div style="padding-top: 2%;">
+                    <label  class="label"  for="email">Email</label>
+                    <input  class="input" type="email" name="email"  />
+                </div>
+                <div style="padding-top: 2%;">
+                    <label   class="label" for="message">Message </label>
+                    <textarea class="textarea is-medium"  name="message"></textarea>
+                </div>
+                <div style="padding-top: 5%;">
+                    <input class="button is-success" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
 
 
     </section>
