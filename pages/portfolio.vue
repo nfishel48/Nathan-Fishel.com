@@ -7,17 +7,18 @@
             <div class="box">
             <img  class="image is-128x128" src="~/assets/css/website.png" alt="Image">
             <p class="subtitle">My website</p>
-            <p class="content">
-                This website you're looking at was built using Vue.js Nuxt.js <br>
-                built on a modern web development architecture, the Jamstack.<br>
-                Dynamic functionalities are handled by JavaScript. There is no <br>
-                restriction on which framework or library you must use. Server <br>
-                side operations are abstracted into reusable APIs and accessed <br>
-                over HTTPS with JavaScript. These can be third party services <br>
-                or your custom function. Websites are served as static HTML <br>
-                files. These can be generated from source files, such as Markdown, <br>
-                using a Static Site Generator.
-            </p>
+            <b-button>
+              <a href="https://nathanfishel.com/">
+              <i class="fas fa-code"></i>
+                View Project
+              </a>
+            </b-button>
+            <b-button  >
+              <a href= 'https://github.com/nfishel48/Personal-site'>
+              <i class="fab fa-github"></i>
+                View Code
+              </a>
+            </b-button>
             </div>
         </div>
           <div class="level-item has-text-centered">

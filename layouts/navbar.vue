@@ -43,7 +43,7 @@
     <div class="content has-text-centered">
       <div class="columns"> 
         <div class="column">
-          <a>Sitemap <i class="fas fa-map-signs"></i> </a>
+          <a href="/sitemap">Sitemap </a><i class="fas fa-map-signs"></i> 
         </div>
 
 

@@ -1,6 +1,14 @@
 # Personal-site
 
-> Personal website for myself
+> This website you're looking at was built using Vue.js Nuxt.js 
+built on a modern web development architecture, the Jamstack.
+Dynamic functionalities are handled by JavaScript. There is no 
+restriction on which framework or library you must use. Server 
+side operations are abstracted into reusable APIs and accessed 
+over HTTPS with JavaScript. These can be third party services 
+or your custom function. Websites are served as static HTML 
+files. These can be generated from source files, such as Markdown, 
+using a Static Site Generator.
 
 ## Build Setup
 
