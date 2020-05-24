@@ -3,10 +3,10 @@
         <h1 class="main-text" style=" padding-bottom: 1%;">Contact me</h1>
         <h2 class="main-body" style="font-size:150%; padding-left: 5%;">Please fill out the form below to reach me</h2>
   
-        <!--
-        <form name="ask-question" action="" method="post" netlify>
+        
+        <form name="contact" action="" method="post" netlify>
            
-                    <input type="hidden" name="form-name" value="ask-question" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <p>
                          <b-field label="Name" class="main-body" style="font-size:150%; padding-left: 5%;">
                             <b-input v-model="name"></b-input>
@@ -26,11 +26,11 @@
             <input class="form-button" type="submit" value="Send message" />
         </div>
         </form> 
-        -->
+        
 
 
        
-
+<!--
   <div class="container">
     <h1 class="title">
       Contact
@@ -57,7 +57,7 @@
       </form>
     </div>
   </div>
-
+-->
 
 
     </section>
