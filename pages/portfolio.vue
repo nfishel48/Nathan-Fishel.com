@@ -4,8 +4,9 @@
         <!--Level One-->
         <nav class="level">
         <div class="level-item has-text-centered">
-            <div class="box">
-            <img  class="image is-128x128" src="~/assets/css/website.png" alt="Image">
+          <!--<Project title="Mywebsite" img="~/assets/css/website.png"></Project>-->
+            <div class="box" >
+        <img  class="image is-128x128" src="~/assets/css/website.png" alt="Image">
             <p class="subtitle">My website</p>
             <b-button>
               <a href="https://nathanfishel.com/">
@@ -19,8 +20,9 @@
                 View Code
               </a>
             </b-button>
-            </div>
+    </div>
         </div>
+        
           <div class="level-item has-text-centered">
             <div class="box">
             <img  class="image is-128x128" src="~/assets/css/logo.jpg" alt="placeholder">
@@ -120,8 +122,12 @@
     
 </template>
 <script>
+import Project from '~/components/Project'
 export default {
     layout: 'navbar',
+    components: {
+    Project
+  }
 
 }
 </script>

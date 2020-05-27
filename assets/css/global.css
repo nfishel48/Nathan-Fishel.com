@@ -35,6 +35,9 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
         top: -2rem; 
     }
 }
+h1{
+    
+}
 a {
     color: #0078d7 ;
 }
@@ -146,10 +149,8 @@ Styles for normal nav bar
 Global Styles
 */
 body{
-    background-color: #505050;
+    background: url(random_grey_variations.png) repeat 0 0;
     min-height: 100%;
-   
-    
 }
 .footer {
     position: absolute;
@@ -158,7 +159,7 @@ body{
     height: 2.5rem;            /* Footer height */
   }
 html{
-    background-color: #505050;
+    background: url(random_grey_variations.png) repeat 0 0;
    
 }
 
