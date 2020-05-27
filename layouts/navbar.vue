@@ -68,7 +68,7 @@
         <div class="column"> 
             <p>
             <i class="far fa-copyright"></i> 
-            {{year}}
+            {{getDate()}}
             Nathaniel Fishel
             </p>
           
@@ -101,6 +101,13 @@ export default {
 
     }
   },
+  methods: {
+    getDate: function(){
+     var year =  new Date().getFullYear();
+     return year;
+    }
+  }
+
 
 }
 </script>
