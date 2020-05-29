@@ -5,23 +5,24 @@
         <!--Level One-->
         <nav class="level">
         <div class="level-item has-text-centered">
-          <!--<Project title="Mywebsite" img="~/assets/css/website.png"></Project>-->
-         <div v-for="(projects, index) in project" :key="index" class="box" >
-        <img  class="image is-128x128" :src='projects.img' alt="Image">
-            <p class="subtitle">{{ projects.title }}</p>
-            <b-button>
-              <a :href='projects.link'>
-              <i class="fas fa-code"></i>
-                View Project
-              </a>
-            </b-button>
-            <b-button  >
-              <a :href="projects.code">
-              <i class="fab fa-github"></i>
-                View Code
-              </a>
-            </b-button>
-    </div>
+         <div v-for="(projects, index) in project" :key="index">
+           <div :id="'project'+index" class="box">
+              <img  class="image is-128x128" :src='projects.img' alt="Image">
+              <p class="subtitle">{{ projects.title }}</p>
+              <b-button>
+                <a :href='projects.link'>
+                <i class="fas fa-code"></i>
+                  View Project
+                </a>
+              </b-button>
+              <b-button >
+                <a :href="projects.code">
+                <i class="fab fa-github"></i>
+                  View Code
+                </a>
+              </b-button>
+           </div>
+          </div>
         </div>
         
         <!--Level two-->
