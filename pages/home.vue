@@ -5,18 +5,19 @@
       <div class="columns">
         <div  class="column main-text">
           <h1>Nathaniel Fishel</h1>
-          <b-button tag="router-link" :to="{ path: '/portfolio' }" class="button is-medium is-link">View my work</b-button>
-          <b-button tag="router-link" :to="{ path: '/about' }" class="button is-medium is-dark">Read my résumé</b-button>
+          <div id="buttons">
+            <b-button tag="router-link" :to="{ path: '/portfolio' }" class="button is-medium is-link">View my work</b-button>
+            <b-button tag="router-link" :to="{ path: '/about' }" class="button is-medium is-dark">Read my résumé</b-button>
+          </div>
         </div>
 
-        
         <div class="column main-text">
-            <span class="icon">
+            <span id="github" class="icon">
               <a href="https://github.com/nfishel48">
               <i class="fab fa-github"></i>
               </a>
             </span>
-            <span style="padding-left: 10%;" class="icon">
+            <span id="linkedin" style="padding-left: 10%;" class="icon">
               <a href="https://www.linkedin.com/in/nathaniel-fishel-722a72165/" >
               <i class="fab fa-linkedin"></i>
               </a>
@@ -26,7 +27,7 @@
    </section>
 
    <section>
-      <div>
+      <div id="body">
         <h2 class="main-body">
           Welcome to my personal website, here you can view my work or read more about me.
           this site is under constant develoment so check back soon!

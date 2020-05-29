@@ -3,6 +3,7 @@
 <template>
   <div id ="content">
     <div>
+      <script src="https://kit.fontawesome.com/4faac6e63e.js" crossorigin="anonymous"></script>
       <b-navbar class="main-nav">
           <template slot="brand">
               <b-navbar-item class="main-nav" tag="router-link" :to="{ path: '/' }">

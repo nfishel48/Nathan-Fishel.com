@@ -23,16 +23,29 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
     }
     h1{
         font-size: 2rem !important;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        padding-left:1rem;
     }
-    .fab{
-        padding-left: 60% !important;
-        padding-right: 60% !important;
+    #body{
         position: relative;
-        top: -5rem; 
+        top: -3rem;
+        padding-bottom: 3rem;
+    }
+    #github{
+      display:none;  
+        
+    }
+    #linkedin{
+        display:none;
+      
     }
     .is-dark{
         position: relative;
         top: -2rem; 
+    }
+    #buttons{
+        padding-left: 1.5rem;
     }
 }
 h1{
