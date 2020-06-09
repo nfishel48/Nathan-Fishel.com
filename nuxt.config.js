@@ -29,12 +29,15 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/google-analytics'
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-164778661-1 '
+    }]
   ],
   /*
   ** Nuxt.js modules
