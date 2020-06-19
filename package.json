@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2"
+    "nuxt-buefy": "^0.3.2",
+    "vue-analytics": "^5.22.1"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.3.0",
