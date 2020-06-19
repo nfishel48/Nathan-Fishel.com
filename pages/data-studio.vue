@@ -29,11 +29,10 @@
    <section>
       <div id="body">
         <h2 class="main-body">
-          <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/305acc79-92fe-416d-9328-8bba27b2a01c/page/9C2UB" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe width="600" height="100" src="https://datastudio.google.com/embed/reporting/305acc79-92fe-416d-9328-8bba27b2a01c/page/9C2UB" frameborder="0" style="border:0" allowfullscreen></iframe>
         </h2>
-        <h2 class ="main-body">
-          Currently planned features to this site incude a Professional Blog, and Photography gallery
-        </h2>
+
+
           <div class="columns">
             <div class="column">
 
