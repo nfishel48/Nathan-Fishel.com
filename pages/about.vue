@@ -72,6 +72,16 @@
     <article class="tile is-child notification is-greytwo">
       <div class="content">
         <p class="title">Experience:</p>
+        <p class="subtitle">Full Stack Developer, Simntx, 6/12/2020-Present</p>
+        <div class="content">
+            <ul>
+                <li>Build the initial version of the E-commerce website</li>
+                <li>Interview and hire my own team of developers to assist me</li>
+                <li>Set up dedicated production server</li>
+                <li>Work with tight deadlines dealines</li>
+                <li>Manage entire project and set achievable goals</li>
+            </ul>  
+        </div>
         <p class="subtitle">Web Developer, Eastern Michigan University, 6/1/19-Present</p>
         <div class="content">
             <ul>
