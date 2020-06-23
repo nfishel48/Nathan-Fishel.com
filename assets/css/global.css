@@ -217,6 +217,13 @@ html{
     font-family: 'Spartan', sans-serif ;
 }
 
+.media-content{
+    background-color: #EEEEEE;
+    margin-right: 20px; 
+    margin-left: 20px;
+   
+}
+
 .label{
     color:  #0078d7; 
 }

@@ -63,7 +63,7 @@ export default {
     return {
       project: [
         {title: 'My website', img: '/website.png', link: 'https://nathanfishel.com/', code: 'https://github.com/nfishel48/Personal-site'},
-        {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
+        {title: 'Simntx', img: '/simntx.png',  link: 'https://simntx.herokuapp.com/', code: 'Closed Source'},
         {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
       ],
       projectTwo: [

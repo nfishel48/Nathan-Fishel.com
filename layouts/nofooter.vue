@@ -23,6 +23,9 @@
               <b-navbar-item class="nav-item" tag="router-link" :to="{ path: '/about' }">
                   About Me
               </b-navbar-item>
+              <b-navbar-item class="nav-item" tag="router-link" :to="{ path: '/Blog' }">
+                  Blog
+              </b-navbar-item>
               <b-navbar-item class="nav-item"  tag="router-link" :to="{ path: '/portfolio' }">
                   Portflolio
               </b-navbar-item>

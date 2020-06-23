@@ -32,9 +32,9 @@
           Welcome to my personal website, here you can view my work or read more about me.
           this site is under constant develoment so check back soon!
         </h2>
-        <h2 class ="main-body">
+        <!-- <h2 class ="main-body">
           Currently planned features to this site incude a Professional Blog, and Photography gallery
-        </h2>
+        </h2> -->
           <div class="columns">
             <div class="column">
 

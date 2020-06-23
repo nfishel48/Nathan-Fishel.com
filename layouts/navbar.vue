@@ -24,6 +24,9 @@
               <b-navbar-item class="nav-item" tag="router-link" :to="{ path: '/about' }">
                   About Me
               </b-navbar-item>
+              <b-navbar-item class="nav-item" tag="router-link" :to="{ path: '/Blog' }">
+                  Blog
+              </b-navbar-item>
               <b-navbar-item class="nav-item"  tag="router-link" :to="{ path: '/portfolio' }">
                   Portflolio
               </b-navbar-item>
@@ -40,7 +43,7 @@
 
   <nuxt/>
 
-   <footer class="footer">
+   <!-- <footer class="footer">
     <div class="content has-text-centered">
       <div class="columns"> 
         <div class="column">
@@ -78,7 +81,7 @@
 
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 </div>   
 </template>
