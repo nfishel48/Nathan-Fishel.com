@@ -6,7 +6,7 @@
         <div class="hero-body">
         <div class="container">
         <h1 class="title">
-           What is google BigQuery?
+           What is Google BigQuery?
         </h1>
         <h2 class="subtitle">
          Have you ever spent hours waiting for a SQL query to finish running? 
