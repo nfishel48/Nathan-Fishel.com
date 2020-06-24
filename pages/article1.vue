@@ -6,18 +6,17 @@
         <div class="hero-body">
         <div class="container">
         <h1 class="title">
-            Why you should use Django for your next ecommerce website
+           What is google BigQuery?
         </h1>
         <h2 class="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada, urna at dapibus vulputate, elit justo ultrices ex, sit amet varius quam arcu ac nibh. Morbi lacinia enim vitae leo congue cursus. Curabitur orci nisi, tincidunt ac aliquam a, gravida sit amet turpis. Ut vel mi justo. Suspendisse consectetur arcu vitae luctus lobortis. Mauris condimentum quis augue quis pulvinar. Donec vitae sagittis sem, ac laoreet purus. Sed vel elit tellus. Nunc nec pharetra justo. Sed lobortis, urna porttitor dapibus tincidunt, dolor dolor mattis nibh, blandit rhoncus tortor augue non felis. Aliquam fermentum erat eu egestas pulvinar. Quisque porta vehicula nisi, ac volutpat lacus.
-
-Nunc ipsum nunc, ultrices a finibus a, placerat ac libero. Sed quis turpis rhoncus, gravida urna at, venenatis nulla. Morbi hendrerit elementum lorem id facilisis. Praesent eleifend felis nec ex elementum, vitae finibus metus scelerisque. Nam semper sit amet ipsum non pulvinar. Vivamus viverra sodales odio, et aliquam mi elementum at. Etiam tempor in eros nec auctor. Mauris quam nibh, volutpat at ipsum et, scelerisque blandit urna. Integer ut mi at lacus elementum convallis vitae vitae velit. Nulla consequat quam non porta placerat.
-
-Morbi nulla magna, dignissim non sollicitudin vel, mollis sit amet libero. Nullam ornare est sit amet urna dapibus, vitae dapibus augue venenatis. Ut scelerisque dolor quis magna finibus gravida. In sit amet neque et nisl cursus semper ut id quam. Phasellus ut justo justo. Ut interdum urna vel suscipit lacinia. Ut eleifend iaculis blandit.
-
-Maecenas non bibendum arcu. Vestibulum hendrerit ligula magna, vel gravida massa aliquam at. Vestibulum egestas elementum semper. Nam in facilisis nulla. Maecenas rhoncus mi nec posuere ultrices. Etiam bibendum risus sem, in maximus tellus varius vel. In egestas nulla justo, et vulputate orci congue tempor. Nam accumsan nisl ut diam ultricies finibus. Suspendisse ullamcorper mi vitae mattis semper. Nulla viverra eros eget tellus ornare, non imperdiet ipsum finibus. Integer pretium tempor nisl, luctus ullamcorper quam vehicula semper. Morbi scelerisque, dui nec luctus consectetur, magna ligula ultrices est, at luctus nisl mauris sodales arcu.
-
-Suspendisse auctor dictum odio sed tincidunt. In placerat dolor sem, ut cursus purus fermentum quis. Donec fermentum et enim a ultrices. Aliquam in est sit amet neque varius consectetur. Phasellus vitae dui lorem. Donec eget pharetra nulla, at lobortis mi. Pellentesque imperdiet rhoncus tincidunt. Vivamus non molestie metus. Quisque eget neque nec urna ullamcorper convallis. Pellentesque efficitur, sapien id vehicula dapibus, velit mauris consequat velit, quis molestie velit risus id felis. Donec facilisis eros ac diam scelerisque consectetur. Nullam ut est imperdiet, ullamcorper sapien a, imperdiet tortor. Aliquam id ultrices leo. Cras pretium lacus non imperdiet efficitur. Morbi auctor hendrerit euismod.
+         Have you ever spent hours waiting for a SQL query to finish running? 
+         Google has a solution for this. Google BigQuery is a data warehousing 
+         tool that enables scalable, cost-effective and fast analysis over petabytes 
+         of data. BigQuery is typically accessed via Google cloud console however 
+         it has client libraries for popular languages such as Java, .NET, Python so 
+         it can be used in combination with other data analysis tools like Hadoop and 
+         Pandas. BigQuery can be used for real time analysis of massive data sets and I 
+         believe it will only become more useful as we move into the era of Big Data
         </h2>
         </div>
     </div>

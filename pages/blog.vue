@@ -50,6 +50,10 @@ export default {
   data(){
     return{
       blog: [
+         { title: 'What is Google BigQuery ', 
+        content: 'Have you ever spent hours waiting for a SQL query to finish running? Google has a solution for this. Google BigQuery is a data warehousing tool that enables scalable, cost-effective and fast analysis over petabytes of data...',
+        link: '/article1'},
+
         { title: 'Next Post coming soon', 
         content: '',
         link: '/'}
