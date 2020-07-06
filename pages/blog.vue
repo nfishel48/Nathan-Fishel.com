@@ -54,6 +54,10 @@ export default {
         content: 'Have you ever spent hours waiting for a SQL query to finish running? Google has a solution for this. Google BigQuery is a data warehousing tool that enables scalable, cost-effective and fast analysis over petabytes of data...',
         link: '/article1'},
 
+        { title: 'Why you should be using Django for your next web project', 
+        content: 'Finding the right tools for a project can sometimes be harder than the actual project itself. In this blog post I will discuss Django, a tool that I think everyone should try for their next web-based project...',
+        link: '/article2'},
+
         { title: 'Next Post coming soon', 
         content: '',
         link: '/'}
