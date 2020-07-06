@@ -28,15 +28,27 @@
 export default {
   layout: "navbar",
 
-head: {
-  meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-  ],
-  link:[{
-    href: 'https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap', rel: "stylesheet"
-  }]
-},
+ data () {
+    return {
+      title: 'Nathaniel Fishel',
+      year: '2020'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'article1', content: 'My first Blog post, I wil talk about Google Big Query' },
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { link:[{
+            href: 'https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap', rel: "stylesheet"
+      }]} 
+      ]
 
+    }
+  },
 }
 </script>
