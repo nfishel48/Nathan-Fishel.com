@@ -1,7 +1,7 @@
 {
-  "name": "Personal-site",
+  "name": "Nathanfishel.com",
   "version": "1.0.0",
-  "description": "Personal website for myself",
+  "description": "nathanfishel.com is my personal website where you can find information about me and read my blog.",
   "author": "Nathaniel Fishel",
   "private": true,
   "scripts": {
