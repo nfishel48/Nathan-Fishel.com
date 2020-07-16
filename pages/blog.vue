@@ -53,7 +53,7 @@ export default {
         
         { title: 'Why your website needs to be fast & how to speed it up', 
         content: 'Weather your website serves strictly as marketing material or it is your main platform for business, you need to have a fast website. Most people only have an attention span of 8-9 seconds, if users have to wait for your site to load any longer than 1-2 seconds they will leave. ',
-        link: '/'},
+        link: '/article3'},
         
          { title: 'Why you should be using Django for your next web project', 
         content: 'Finding the right tools for a project can sometimes be harder than the actual project itself. In this blog post I will discuss Django, a tool that I think everyone should try for their next web-based project...',
