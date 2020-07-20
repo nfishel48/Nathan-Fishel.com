@@ -50,7 +50,10 @@ export default {
   data(){
     return{
       blog: [
-        
+        { title: '10 Reasons to not use a Website builder and go with a custom solution', 
+        content: 'Website builders have become widely used in the last few years, by a website builder I mean Wix, Square Space, Weebly. These types of sites do have some benefits. They are cheap and can be set up quickly but a user with no coding knowledge... ',
+        link: '/article4'},
+
         { title: 'Why your website needs to be fast & how to speed it up', 
         content: 'Weather your website serves strictly as marketing material or it is your main platform for business, you need to have a fast website. Most people only have an attention span of 8-9 seconds, if users have to wait for your site to load any longer than 1-2 seconds they will leave. ',
         link: '/article3'},
