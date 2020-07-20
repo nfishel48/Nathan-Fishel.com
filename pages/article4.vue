@@ -47,10 +47,7 @@
                 Most website builder companies do not keep backups of your site. Your hard work and entire online presence could be wiped out with one power outage at a data center. Even if it’s not on accident in the terms of service these companies have the right to shut down at any time and then you have no website.
             </li>
         </ol>
-        <br>
-        <h2 class="subtitle">
-            If these 10 reasons have convinced you to look for a better solution for your website, <a  href="/contact" style="color:orange">send me a message through my contact form and I can help you get a professional website set up.</a>
-        </h2>
+        
         </div>
     </div>
     </div>
