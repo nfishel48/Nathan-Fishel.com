@@ -49,7 +49,7 @@
         </ol>
         <br>
         <h2 class="subtitle">
-            If these 10 reasons have convinced you to look for a better solution for your website, <a href="/contact" style="color:orange">send me a message through my contact form and I can help you get a professional website set up.</a>
+            If these 10 reasons have convinced you to look for a better solution for your website, <a  href="/contact" style="color:orange">send me a message through my contact form and I can help you get a professional website set up.</a>
         </h2>
         </div>
     </div>
