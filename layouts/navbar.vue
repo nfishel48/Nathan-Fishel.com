@@ -33,7 +33,7 @@
               <b-navbar-item class="main-nav"  tag="div" >
                   <div class="buttons">
                       <b-button class="button button is-link is-inverted" tag="router-link" :to="{ path: '/contact' }">
-                          <strong>Contact Me</strong>
+                          Contact Me
                       </b-button>
                   </div>
               </b-navbar-item>
@@ -43,45 +43,15 @@
 
   <nuxt/>
 
-   <!-- <footer class="footer">
-    <div class="content has-text-centered">
-      <div class="columns"> 
-        <div class="column">
-          <a href="/sitemap">Sitemap </a><i class="fas fa-map-signs"></i> 
-        </div>
-
-
-        <div class="column"> 
-          <div>
-            
-            <span class="icon">
-              <a href="https://github.com/nfishel48">
-              <i class="fab fa-github"></i>
-              </a>
-            </span>
-
-            <span class="icon">
-              <a href="https://www.linkedin.com/in/nathaniel-fishel-722a72165/" >
-              <i class="fab fa-linkedin"></i>
-              </a>
-            </span>
-          </div>
-        </div>
-
-
-        <div class="column"> 
-            <p>
-            <i class="far fa-copyright"></i> 
-            {{getDate()}}
-            Nathaniel Fishel
-            </p>
-          
-          
-        </div>
-
-      </div>
-    </div>
-  </footer> -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
 
 </div>   
 </template>
