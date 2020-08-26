@@ -10,7 +10,7 @@
             <h1 style="color: white;">Nathaniel Fishel</h1>
             <div id="buttons">
               <b-button tag="router-link" :to="{ path: '/portfolio' }" class="button is-medium is-link">View my work</b-button>
-              <b-button tag="router-link" :to="{ path: '/about' }" class="button is-medium">Read my résumé</b-button>
+              <b-button id="buttontwo" tag="router-link" :to="{ path: '/about' }" class="button is-medium">Read my résumé</b-button>
             </div>
           </div>
         
@@ -155,13 +155,52 @@
   </div>
 </div>
 </section>
-<!------------>
-   
-  <div style="padding-bottom: 150px;"></div>
+  <!------------>
+
+  <!--- Portfolio -->
+
+   <section class="section" style="background-color: #2c2c2c;">
+     <div class="container">
+       <script src="https://kit.fontawesome.com/4faac6e63e.js" crossorigin="anonymous"></script>
+        <h1 class="main-text" color="white">View some of my work</h1>
+        <!--Level One-->
+        <nav class="level">
+        <div class="container level-item has-text-centered">
+         <div v-for="(projects, index) in project" :key="index">
+           <div :id="'project'+index" class="box">
+              <img  class="image is-128x128" :src='projects.img' alt="Image">
+              <p class="subtitle">{{ projects.title }}</p>
+              <b-button>
+                <a :href='projects.link'>
+                <i class="fas fa-code"></i>
+                  View Project
+                </a>
+              </b-button>
+              <b-button v-if="projects.code === 'Closed Source'">
+                <a :href="projects.code">
+                <i class="far fa-frown"></i>
+                  NDA 
+                </a>
+              </b-button>
+              <b-button v-else>
+                <a :href="projects.code">
+                <i class="fab fa-github"></i>
+                  View Code
+                </a>
+              </b-button>
+           </div>
+          </div>
+        </div>
+        </nav>
+     </div>
+
+
+   </section>
 
 
 
 
+  <div style="padding-bottom: 150px;"></div> 
   </section> 
 </template>
 
@@ -180,6 +219,20 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
+  },
+  data () {
+    return {
+      project: [
+        {title: 'My website', img: '/website.png', link: 'https://nathanfishel.com/', code: 'https://github.com/nfishel48/Personal-site'},
+        {title: 'Simntx', img: '/simntx.png',  link: 'https://simntx.herokuapp.com/', code: 'Closed Source'},
+        // {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
+      ],
+      // projectTwo: [
+      //   {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
+      //   {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
+      //   {title: 'Coming soon', img: '/logo.jpg',  link: '#', code: '#'},
+      // ]      
+    }
   },
 
 

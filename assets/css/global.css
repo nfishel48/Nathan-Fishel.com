@@ -40,9 +40,10 @@ https://stackoverflow.com/questions/39427416/full-page-image-background-using-bu
         display:none;
       
     }
-    .is-dark{
+    #buttontwo{
         position: relative;
         top: -2rem; 
+        padding-left: 1.5rem;
     }
     #buttons{
         padding-left: 1.5rem;

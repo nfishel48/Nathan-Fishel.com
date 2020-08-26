@@ -40,7 +40,7 @@
           </template>
       </b-navbar>
        <b-message title="Attention!" type="is-danger" aria-close-label="Close message">
-            This site is currently undergoing a redesign, but dont't worry all information on this site is up to date. Some elements may be missplaced so please check back soon for the final version.
+            This site is currently undergoing a redesign, but dont't worry all information is up to date. Some elements may be missplaced so please check back soon for the final version.
         </b-message>
   </div>
 
