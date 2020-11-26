@@ -1,4 +1,4 @@
-# Personal-site
+# nathanfishel.com frontend
 
 > This website you're looking at was built using Vue.js Nuxt.js 
 built on a modern web development architecture, the Jamstack.
