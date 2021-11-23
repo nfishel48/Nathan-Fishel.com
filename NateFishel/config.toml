@@ -7,12 +7,46 @@ pygmentsStyle = "monokai"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "/images/avatar.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-l"
+
+  # Description to display on homepage
+  description = "💻Coding,☁️Cloud, and Coffee☕️"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#0c74ce"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo", "Nathaniel", "Fishel"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  #showPostsOnHomePage = "do not display"
+
+  # Footer text
+  footer = "Nathan Fishel"
+
+  socialIcons = [
+      {name = "linkedin", url = "https://www.linkedin.com/in/nathaniel-f-722a72165/"},
+      {name = "github", url = "https://github.com/nfishel48"},
+    ]
+
+
 [menu]
-    [[menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about/"
-        weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
 
   [[menu.main]]
     # Unique identifer for a menu item
@@ -41,37 +75,5 @@ enableRobotsTXT = true
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
 
-[params]
-  # URL for the avatar on homepage
-  avatarURL = "/Users/nfishel/Documents/Personal-site/NateFishel/images/avatar.jpg"
-
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-l"
-
-  # Description to display on homepage
-  description = "Sky above, sand below & peace within"
-
-  # Accent color is displayed when you hover over <a> tags
-  accentColor = "#FF4D4D"
-
-  # You can use this to inject any HTML in the <head> tag.
-  # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
-
-  # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo", "Nathaniel", "Fishel"]
-
-  # If you want to display posts on the homepage, the options are
-  # "popular" (order posts by weight), "recent" (order posts by date)
-  # or "" (do not display, default option)
-  #showPostsOnHomePage = "do not display"
-
-  # Footer text
-  footer = "Nathan Fishel"
-
-  socialIcons = [
-      {name = "linkedin", url = "https://www.linkedin.com/in/nathaniel-f-722a72165/"},
-      {name = "github", url = "https://github.com/nfishel48"},
-    ]
 
     
