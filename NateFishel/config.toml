@@ -1,4 +1,4 @@
-baseURL = 'http://nathanfishel.com
+baseURL = 'http://nathanfishel.com'
 languageCode = 'en-us'
 title = 'Nathan Fishel'
 theme = "gokarna"
@@ -22,7 +22,7 @@ enableRobotsTXT = true
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = "/scripts/gtag.js"
 
   # Keywords relevant for SEO
   metaKeywords = ["blog", "gokarna", "hugo", "Nathaniel", "Fishel"]
