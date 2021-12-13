@@ -61,11 +61,11 @@ enableRobotsTXT = true
     # Weights are used to determine the ordering
     weight = 2
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
+  #[[menu.main]]
+    #identifier = "tags"
+    #name = "Tags"
+    #url = "/tags/"
+    #weight = 3
     
   [[menu.main]]
     identifier = "github"
