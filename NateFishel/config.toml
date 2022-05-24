@@ -22,7 +22,7 @@ enableRobotsTXT = true
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = "/scripts/gtag.js"
+  #customHeadHTML = "/scripts/gtag.js"
 
   # Keywords relevant for SEO
   metaKeywords = ["blog", "gokarna", "hugo", "Nathaniel", "Fishel"]
