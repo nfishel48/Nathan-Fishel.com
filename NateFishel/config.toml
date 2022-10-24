@@ -30,7 +30,7 @@ enableRobotsTXT = true
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
   # or "" (do not display, default option)
-  #showPostsOnHomePage = "do not display"
+  showPostsOnHomePage = "recent"
 
   # Footer text
   footer = "Nathan Fishel"
@@ -61,19 +61,24 @@ enableRobotsTXT = true
     # Weights are used to determine the ordering
     weight = 2
 
-  #[[menu.main]]
-    #identifier = "tags"
-    #name = "Tags"
-    #url = "/tags/"
-    #weight = 3
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
     
   [[menu.main]]
-    identifier = "github"
-    url = "https://github.com"
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 4
-    
-    # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
+  #[[menu.main]]
+  #  identifier = "github"
+  #  url = "https://github.com/nfishel48"
+  #  weight = 4
+  #  
+  #  # We use feather-icons: https://feathericons.com/
+  #  pre = "<span data-feather='github'></span>"
 
 
     

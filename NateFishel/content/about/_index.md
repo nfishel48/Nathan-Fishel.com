@@ -6,9 +6,11 @@ type: page
 ### Job Experince
 #### DevOps Engineer, Autodesk, 10/2021-Present
 
-    Help maintain and add features to internal cloud management tools.
-    Help automate tasks.
-    Build systems to gain visablity into proccesses.
+    Maintain and add new features to a AWS provisioning service.
+    Help in the creation of a new Azure provisioning service.
+    Maintain and extend internal tools written in Go and Python.
+    Build dashboards to assist our security team with securing our cloud infrastructure.
+    Take part in discustions around architecture and security of proposed projects.
 
 
 #### Cloud Solutions Engineer, Right Brain Networks, 10/2020-10/2021
@@ -47,6 +49,7 @@ type: page
 ### Certifications
     - AWS Certified Developer Associate
     - AWS Certified Solutions Architect
+    - Certified Scrum Master
     - Google Analytics Individual Certification
     - CDE-SPARK Digital Media Certification(2020)
     - Microsoft Technology Associate: Windows OS Security, and Network Fundamentals
