@@ -1,4 +1,4 @@
-baseURL = 'http://nathanfishel.com'
+baseURL = 'https://nathanfishel.com'
 languageCode = 'en-us'
 title = 'Nathan Fishel'
 theme = "gokarna"
