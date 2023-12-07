@@ -2,6 +2,11 @@
 title: "Empowering Your Application: Crafting an AI Agent with OpenAI's GPT"
 date: 2023-11-19T22:12:49-05:00
 draft: false
+tags:
+- GPT
+- AI
+- Python
+- API
 type: post
 ---
 ## Preface
