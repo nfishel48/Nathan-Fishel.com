@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #0c74ce;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT</title>
+    <meta name="description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta name="keywords" content='Nathan Fishel, Cloud DevOps Engineer, AWS, Azure, Terraform, Infrastructure as Code, Python, Go, DevOps, Cloud Solutions, Autodesk, Software Engineering, GPT, AI, API'>
+
+    <meta property="og:url" content="https://nathanfishel.com/posts/agent/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT">
+    <meta property="og:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="og:image" content="https://nathanfishel.com/images/avatar.jpg">
+    <meta property="og:image:secure_url" content="https://nathanfishel.com/images/avatar.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT">
+    <meta name="twitter:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="twitter:domain" content="https://nathanfishel.com/posts/agent/">
+    <meta property="twitter:url" content="https://nathanfishel.com/posts/agent/">
+    <meta name="twitter:image" content="https://nathanfishel.com/images/avatar.jpg">
+
+    
+    <link rel="canonical" href="https://nathanfishel.com/posts/agent/" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.a36f1b6a4f5febef42d44c3508b4dc493d11997d01f0359f4df1cde77aac8cc5.js" integrity="sha256-o28bak9f6&#43;9C1Ew1CLTcST0RmX0B8DWfTfHN53qsjMU="></script>
+
+    
+    
+    <script defer data-domain="nathanfishel.com" src="https://plausible.io/js/plausible.js"></script>
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://nathanfishel.com/">
+                <img src='/images/avatar.jpg' alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://nathanfishel.com/">Nathan Fishel | Cloud DevOps Engineer</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/about/"> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/projects/"> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/contact/"> Contact </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/about/"> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/projects/"> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/contact/"> Contact </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">December 7, 2023
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/gpt">GPT</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/ai">AI</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/python">Python</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/api">API</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h2 id="preface">Preface</h2>
+<p>This post was originally intended to be a single comprehensive piece. However, due to the upcoming holidays and family commitments,
+I&rsquo;ve decided to split it into multiple parts. Part one will cover the usage of OpenAI&rsquo;s text completion API via Python. Part two will demonstrate how to parse responses to call your own API.
+Finally, in part three, I&rsquo;ll guide you through setting up an API to interact with your Python program and building an embeddable chat interface for web applications.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Unless you&rsquo;ve been living under a rock for the past few years, you&rsquo;ve likely encountered OpenAI&rsquo;s ChatGPT.
+The GPT models provide responses so convincingly intelligent that they could easily be mistaken for human-written text.
+OpenAI enables developers to leverage these GPT models through their Chat Completions API,
+which allows the integration of external functions to expand the models&rsquo; capabilities.
+In the field of AI, a bot capable of performing tasks is commonly referred to as an Agent.</p>
+<h2 id="objective">Objective</h2>
+<p>I currently maintain an application consisting of a Single Page Application (SPA) working alongside a backend REST API composed of multiple microservices.
+My goal is to integrate a chat interface into the application to help users achieve their objectives more efficiently.
+This chat interface will enable users to save time by simply asking our Agent to perform tasks on their behalf.
+I&rsquo;ve designed a basic diagram to illustrate the workflow:</p>
+<p><img src="/images/chat.png" alt="alt text" title="Sequence diagram of chat interface workflow"></p>
+<p>Users will input commands into the text box, which will be received by our application.
+Our application will then forward the user&rsquo;s message to the GPT model and receive a response containing both text and function parameters.
+We&rsquo;ll utilize these parameters to invoke our application&rsquo;s API and execute the requested tasks.
+Finally, we&rsquo;ll present all this information back to the user as a conversational chat response.</p>
+<h3 id="openai-integration">OpenAI Integration</h3>
+<p>Let&rsquo;s delve into the most intriguing aspect of the project: OpenAI integration.
+OpenAI provides an excellent overview of function calling with models at <a href="https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models">https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models</a>.
+Begin by installing the necessary libraries and selecting your model. Your Python file should start with something similar to the following:</p>
+<pre tabindex="0"><code>import json
+import openai
+import requests
+from tenacity import retry, wait_random_exponential, stop_after_attempt
+from termcolor import colored
+
+GPT_MODEL = &#34;gpt-3.5-turbo-0613&#34;
+</code></pre><p>Next, we need to define an array of objects to describe the tools available to the model.
+For the purpose of this blog post, I&rsquo;ll add only one tool, but you have the flexibility to include as many as needed.
+It&rsquo;s important to note that OpenAI suggests a more efficient approach when defining multiple tools:
+instead of passing the array with each API call, it&rsquo;s recommended to utilize a fine-tuned model.</p>
+<pre tabindex="0"><code>tools = [
+    {
+        &#34;type&#34;: &#34;function&#34;,
+        &#34;function&#34;: {
+            &#34;name&#34;: &#34;create_workout&#34;,
+            &#34;description&#34;: &#34;Add a new workout to a player&#39;s schedule&#34;,
+            &#34;parameters&#34;: {
+                &#34;type&#34;: &#34;object&#34;,
+                &#34;properties&#34;: {
+                    &#34;start&#34;: {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;The start date and time of the workout, e.g. 2023-11-19T22:12:49-05:00&#34;,
+                    },
+                    &#34;end&#34;: {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;The end date and time of the workout, e.g. 2023-11-19T22:12:49-05:00&#34;,
+                    },
+                    &#34;name&#34;: {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;The name of the workout&#34;,
+                    },
+                    &#34;intensity&#34;: {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;enum&#34;: [&#34;recovery&#34;, &#34;low&#34;, &#34;maintenance&#34;, &#34;high&#34;, &#34;extreme&#34;],
+                        &#34;description&#34;: &#34;The intensity of the workout&#34;,
+                    },
+                },
+                &#34;required&#34;: [&#34;start&#34;, &#34;end&#34;, &#34;name&#34;, &#34;intensity&#34;],
+            },
+        }
+    }
+]
+</code></pre><p>Let&rsquo;s add some code to call the API and pass in messages:</p>
+<pre tabindex="0"><code>messages = []
+messages.append({&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;Don&#39;t make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.&#34;})
+messages.append({&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;Please create a new workout&#34;})
+chat_response = chat_completion_request(
+    messages, tools=tools
+)
+assistant_message = chat_response.json()[&#34;choices&#34;][0][&#34;message&#34;]
+messages.append(assistant_message)
+pretty_print_conversation(messages)
+print(chat_response.json()[&#34;choices&#34;][0])
+</code></pre><p>Running this code, we receive the following response from the model:</p>
+<pre tabindex="0"><code>system: Don&#39;t make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.
+
+user: Please create a new workout
+
+A: Sure, I can help you create a new workout. Could you please provide the following information:
+
+1. Start date and time of the workout (e.g., 2023-11-19T22:12:49-05:00)
+2. End date and time of the workout (e.g., 2023-11-19T22:12:49-05:00)
+3. Name of the workout
+4. Intensity of the workout (recovery, low, maintenance, high, extreme)
+
+Please provide the values for these parameters.
+</code></pre><p>When we provide the requested values, we receive:</p>
+<pre tabindex="0"><code>{
+    &#39;index&#39;: 0, 
+    &#39;message&#39;: {
+        &#39;role&#39;: &#39;assistant&#39;, 
+        &#39;content&#39;: None, 
+        &#39;tool_calls&#39;: [{
+            &#39;id&#39;: &#39;call_******&#39;, 
+            &#39;type&#39;: &#39;function&#39;, 
+            &#39;function&#39;: {
+                &#39;name&#39;: &#39;create_workout&#39;, 
+                &#39;arguments&#39;: &#39;{\n  &#34;start&#34;: &#34;2023-11-19T22:12:49-05:00&#34;,\n  &#34;end&#34;: &#34;2023-11-19T22:12:49-05:00&#34;,\n  &#34;intensity&#34;: &#34;high&#34;,\n  &#34;name&#34;: &#34;Long Run&#34;\n}&#39;}}
+        ]}, 
+        &#39;finish_reason&#39;: &#39;tool_calls&#39;
+}
+</code></pre><p>Excellent! With this setup, users can seamlessly interact with our API using natural language.
+Moreover, we can prompt for multiple values, enabling the creation of entire workout schedules effortlessly.
+In the upcoming section, we&rsquo;ll focus on parsing the returned arguments and leveraging them to trigger our API,
+further enhancing the functionality and usability of our system. Stay tuned for the next installment!</p>
+
+        </p>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2025 Nathan Fishel | Cloud DevOps Engineer | Royal Oak, Michigan</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

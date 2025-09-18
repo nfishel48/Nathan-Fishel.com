@@ -1,11 +1,14 @@
 baseURL = 'https://nathanfishel.com'
 languageCode = 'en-us'
-title = 'Nathan Fishel'
+title = 'Nathan Fishel | Cloud DevOps Engineer'
 theme = "gokarna"
 pygmentsStyle = "monokai"
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
+
+# Disqus configuration (empty to prevent theme errors)
+disqusShortname = ""
 
 [params]
   # URL for the avatar on homepage
@@ -15,7 +18,7 @@ enableRobotsTXT = true
   avatarSize = "size-l"
 
   # Description to display on homepage
-  description = "💻Coding,☁️Cloud, and Coffee☕️"
+  description = "Cloud DevOps Engineer at Autodesk | AWS & Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#0c74ce"
@@ -25,7 +28,7 @@ enableRobotsTXT = true
   customHeadHTML = '<script defer data-domain="nathanfishel.com" src="https://plausible.io/js/plausible.js"></script>'
 
   # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo", "Nathaniel", "Fishel"]
+  metaKeywords = ["Nathan Fishel", "Cloud DevOps Engineer", "AWS", "Azure", "Terraform", "Infrastructure as Code", "Python", "Go", "DevOps", "Cloud Solutions", "Autodesk", "Software Engineering"]
 
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
@@ -33,11 +36,13 @@ enableRobotsTXT = true
   showPostsOnHomePage = "recent"
 
   # Footer text
-  footer = "Nathan Fishel"
+  footer = "Nathan Fishel | Cloud DevOps Engineer | Royal Oak, Michigan"
 
   socialIcons = [
       {name = "linkedin", url = "https://www.linkedin.com/in/nathaniel-f-722a72165/"},
       {name = "github", url = "https://github.com/nfishel48"},
+      {name = "twitter", url = "https://x.com/NateShips"},
+      {name = "email", url = "mailto:nfishel@nathanfishel.com"},
     ]
 
 
@@ -51,7 +56,7 @@ enableRobotsTXT = true
   [[menu.main]]
     # Unique identifer for a menu item
     identifier = "posts"
-    url = "/posts/"   
+    url = "/posts/"
     # You can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # You can add extra information after the name (HTML format is supported), such as icons
@@ -62,23 +67,26 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 3
-    
+    weight = 4
+
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
   #[[menu.main]]
   #  identifier = "github"
   #  url = "https://github.com/nfishel48"
   #  weight = 4
-  #  
+  #
   #  # We use feather-icons: https://feathericons.com/
   #  pre = "<span data-feather='github'></span>"
-
-
-    

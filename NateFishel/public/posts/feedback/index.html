@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #0c74ce;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>The Developer Feedback Loop: A Shortcut to Faster Software Shipping</title>
+    <meta name="description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta name="keywords" content='Nathan Fishel, Cloud DevOps Engineer, AWS, Azure, Terraform, Infrastructure as Code, Python, Go, DevOps, Cloud Solutions, Autodesk, Software Engineering, Productivity'>
+
+    <meta property="og:url" content="https://nathanfishel.com/posts/feedback/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Developer Feedback Loop: A Shortcut to Faster Software Shipping">
+    <meta property="og:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="og:image" content="https://nathanfishel.com/images/avatar.jpg">
+    <meta property="og:image:secure_url" content="https://nathanfishel.com/images/avatar.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Developer Feedback Loop: A Shortcut to Faster Software Shipping">
+    <meta name="twitter:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="twitter:domain" content="https://nathanfishel.com/posts/feedback/">
+    <meta property="twitter:url" content="https://nathanfishel.com/posts/feedback/">
+    <meta name="twitter:image" content="https://nathanfishel.com/images/avatar.jpg">
+
+    
+    <link rel="canonical" href="https://nathanfishel.com/posts/feedback/" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.a36f1b6a4f5febef42d44c3508b4dc493d11997d01f0359f4df1cde77aac8cc5.js" integrity="sha256-o28bak9f6&#43;9C1Ew1CLTcST0RmX0B8DWfTfHN53qsjMU="></script>
+
+    
+    
+    <script defer data-domain="nathanfishel.com" src="https://plausible.io/js/plausible.js"></script>
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://nathanfishel.com/">
+                <img src='/images/avatar.jpg' alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://nathanfishel.com/">Nathan Fishel | Cloud DevOps Engineer</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/about/"> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/projects/"> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/contact/"> Contact </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/about/"> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/projects/"> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/contact/"> Contact </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>The Developer Feedback Loop: A Shortcut to Faster Software Shipping</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">October 25, 2023
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/devops">DevOps</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/productivity">Productivity</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p>If you&rsquo;ve been immersed in the software industry in recent years, you&rsquo;ve likely encountered extensive discussions about developer productivity, developer platforms, and developer experience.</p>
+<p>In today&rsquo;s landscape, where organizations strive to maximize the productivity of their valuable software development teams, various concepts have emerged with bold promises. From the transformative potential of AI to Platform as a Service (PaaS) and Test-Driven Development (TDD), many claim that even solo developers can now accomplish what previously required entire teams.</p>
+<p>However, the quintessential catalyst for increasing software output lies in refining the feedback loop. The developer feedback loop stands as the paramount factor in accelerating both the development and delivery of software products.</p>
+<p>This article was originally published as a guest post on the RoyalZSoftware blog. You can read the full article <a href="https://royalzsoftware.de/the-developer-feedback-loop-a-shortcut-to-faster-software-shipping">here</a>.</p>
+
+        </p>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2025 Nathan Fishel | Cloud DevOps Engineer | Royal Oak, Michigan</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

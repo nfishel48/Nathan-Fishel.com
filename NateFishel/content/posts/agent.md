@@ -1,6 +1,6 @@
 ---
 title: "Empowering Your Application: Crafting an AI Agent with OpenAI's GPT"
-date: 2023-12-7T22:12:49-05:00
+date: 2023-12-07T22:12:49-05:00
 draft: false
 tags:
 - GPT
@@ -10,34 +10,34 @@ tags:
 type: post
 ---
 ## Preface
-This post was originally going to be one long piece. However, due to the upcoming holidays and taking care of a sick child, 
-it will be split into multiple parts. Part one will cover the usage of the OpenAI text completion API via Python. Part two will demonstrate how to parse the response to call our own API. 
-Lastly, in part three, I will guide you through setting up an API to interact with our Python program and build a chat interface embeddable into a web app.
+This post was originally intended to be a single comprehensive piece. However, due to the upcoming holidays and family commitments, 
+I've decided to split it into multiple parts. Part one will cover the usage of OpenAI's text completion API via Python. Part two will demonstrate how to parse responses to call your own API. 
+Finally, in part three, I'll guide you through setting up an API to interact with your Python program and building an embeddable chat interface for web applications.
 
 ## Introduction
-Unless you've been living under a rock for the last few years, you've likely encountered OpenAI’s ChatGPT. 
-The GPT models provide responses so convincingly intelligent that they could be mistaken for real human responses. 
-OpenAI enables developers to use the GPT models via their Chat Completions API, 
-which allows the utilization of external functions to expand the capabilities of GPT models. 
-In the field of AI, a bot that is capable of performing tasks is often referred to as an Agent.
+Unless you've been living under a rock for the past few years, you've likely encountered OpenAI's ChatGPT. 
+The GPT models provide responses so convincingly intelligent that they could easily be mistaken for human-written text. 
+OpenAI enables developers to leverage these GPT models through their Chat Completions API, 
+which allows the integration of external functions to expand the models' capabilities. 
+In the field of AI, a bot capable of performing tasks is commonly referred to as an Agent.
 
 ## Objective
-I currently have an application consisting of a Single Page App working alongside a backend REST API composed of multiple microservices. 
-My goal is to integrate a chat interface into my app to facilitate users in achieving their objectives more efficiently. 
+I currently maintain an application consisting of a Single Page Application (SPA) working alongside a backend REST API composed of multiple microservices. 
+My goal is to integrate a chat interface into the application to help users achieve their objectives more efficiently. 
 This chat interface will enable users to save time by simply asking our Agent to perform tasks on their behalf. 
-I’ve designed a basic diagram to illustrate how this will function.
+I've designed a basic diagram to illustrate the workflow:
 
-![alt text](/images/chat.png "Sequence diagram of chat interface working")
+![alt text](/images/chat.png "Sequence diagram of chat interface workflow")
 
-Users will input their commands into the text box, which will be received by our application. 
-Our application will then forward the user's message to the GPT model and receive a response containing text and function parameters. 
-We will utilize these parameters to invoke our application's API and execute the task. 
-Finally, we will provide all this information back to the user in the form of a chat response.
+Users will input commands into the text box, which will be received by our application. 
+Our application will then forward the user's message to the GPT model and receive a response containing both text and function parameters. 
+We'll utilize these parameters to invoke our application's API and execute the requested tasks. 
+Finally, we'll present all this information back to the user as a conversational chat response.
 
 
-### OpenAI integration
+### OpenAI Integration
 Let's delve into the most intriguing aspect of the project: OpenAI integration. 
-OpenAI offers an excellent overview of function calling from models https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models. 
+OpenAI provides an excellent overview of function calling with models at https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models. 
 Begin by installing the necessary libraries and selecting your model. Your Python file should start with something similar to the following:
 ```
 import json
@@ -48,10 +48,10 @@ from termcolor import colored
 
 GPT_MODEL = "gpt-3.5-turbo-0613"
 ```
-Next, our task is to define an array of objects to describe the tools available to the model. 
-For the sake of this blog post, I'll add only one tool, but you have the flexibility to include as many as needed. 
-It's important to note that OpenAI suggests a more efficient approach if you're defining multiple tools. 
-Instead of passing the array with each API call, it's recommended to utilize a fine-tuned model.
+Next, we need to define an array of objects to describe the tools available to the model. 
+For the purpose of this blog post, I'll add only one tool, but you have the flexibility to include as many as needed. 
+It's important to note that OpenAI suggests a more efficient approach when defining multiple tools: 
+instead of passing the array with each API call, it's recommended to utilize a fine-tuned model.
 
 ```
 tools = [
@@ -59,7 +59,7 @@ tools = [
         "type": "function",
         "function": {
             "name": "create_workout",
-            "description": "Add a new workout to a players schedule",
+            "description": "Add a new workout to a player's schedule",
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -70,10 +70,6 @@ tools = [
                     "end": {
                         "type": "string",
                         "description": "The end date and time of the workout, e.g. 2023-11-19T22:12:49-05:00",
-                    },
-                    "name": {
-                        "type": "string",
-                        "description": "The name of the workout",
                     },
                     "name": {
                         "type": "string",
@@ -92,7 +88,7 @@ tools = [
 ]
 
 ```
-Lets add the a bit of code to allow us to call the api and pass in some messages
+Let's add some code to call the API and pass in messages:
 
 ```
 messages = []
@@ -106,14 +102,14 @@ messages.append(assistant_message)
 pretty_print_conversation(messages)
 print(chat_response.json()["choices"][0])
 ```
-Running this we get a response back from the model
+Running this code, we receive the following response from the model:
 
 ```
 system: Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.
 
 user: Please create a new workout
 
-assistant: Sure, I can help you create a new workout. Could you please provide the following information:
+A: Sure, I can help you create a new workout. Could you please provide the following information:
 
 1. Start date and time of the workout (e.g., 2023-11-19T22:12:49-05:00)
 2. End date and time of the workout (e.g., 2023-11-19T22:12:49-05:00)
@@ -123,7 +119,7 @@ assistant: Sure, I can help you create a new workout. Could you please provide t
 Please provide the values for these parameters.
 
 ```
-And if we provide the values its asking for we get back
+When we provide the requested values, we receive:
 
 ```
 {
@@ -141,9 +137,7 @@ And if we provide the values its asking for we get back
         'finish_reason': 'tool_calls'
 }
 ```
-Fantastic! With this setup, users can seamlessly interact with our API using natural language.
-Moreover, we can prompt for multiple values, enabling the creation of an entire workout schedule effortlessly. 
+Excellent! With this setup, users can seamlessly interact with our API using natural language.
+Moreover, we can prompt for multiple values, enabling the creation of entire workout schedules effortlessly. 
 In the upcoming section, we'll focus on parsing the returned arguments and leveraging them to trigger our API, 
-further enhancing the functionality and usability of our system. Stay tuned for the next part!
-
-
+further enhancing the functionality and usability of our system. Stay tuned for the next installment!

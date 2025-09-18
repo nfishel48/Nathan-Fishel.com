@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan Fishel | Cloud DevOps Engineer</title>
+    <link>https://nathanfishel.com/</link>
+    <description>Recent content on Nathan Fishel | Cloud DevOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2023 22:12:49 -0500</lastBuildDate>
+    <atom:link href="https://nathanfishel.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT</title>
+      <link>https://nathanfishel.com/posts/agent/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/posts/agent/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;This post was originally intended to be a single comprehensive piece. However, due to the upcoming holidays and family commitments,&#xA;I&amp;rsquo;ve decided to split it into multiple parts. Part one will cover the usage of OpenAI&amp;rsquo;s text completion API via Python. Part two will demonstrate how to parse responses to call your own API.&#xA;Finally, in part three, I&amp;rsquo;ll guide you through setting up an API to interact with your Python program and building an embeddable chat interface for web applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Developer Feedback Loop: A Shortcut to Faster Software Shipping</title>
+      <link>https://nathanfishel.com/posts/feedback/</link>
+      <pubDate>Wed, 25 Oct 2023 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/posts/feedback/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve been immersed in the software industry in recent years, you&amp;rsquo;ve likely encountered extensive discussions about developer productivity, developer platforms, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s landscape, where organizations strive to maximize the productivity of their valuable software development teams, various concepts have emerged with bold promises. From the transformative potential of AI to Platform as a Service (PaaS) and Test-Driven Development (TDD), many claim that even solo developers can now accomplish what previously required entire teams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Reasons You Need to Be Using Infrastructure as Code</title>
+      <link>https://nathanfishel.com/posts/iac/</link>
+      <pubDate>Sun, 23 Oct 2022 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/posts/iac/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://nathanfishel.com/images/servers.jpg&#34; alt=&#34;alt text&#34; title=&#34;Image of servers in a data center&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-infrastructure-as-code&#34;&gt;What Is Infrastructure as Code?&lt;/h2&gt;&#xA;&lt;p&gt;Infrastructure as Code (IaC) is a practice of managing and provisioning infrastructure through machine-readable definition files, rather than manual processes or interactive configuration tools. With IaC, you no longer need to manually provision infrastructure through your cloud provider&amp;rsquo;s web console—instead, this entire process can be automated and version-controlled.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-prevent-and-revert-ad-hoc-changes&#34;&gt;1. Prevent and Revert Ad-Hoc Changes&lt;/h2&gt;&#xA;&lt;p&gt;When it comes to infrastructure management, consistency is paramount. By defining your infrastructure as code, you effectively remove the human variable from the equation. While small environments might be manageable through manual provisioning, as your infrastructure grows to include development, testing, staging, and production environments, the likelihood of configuration drift and human error increases significantly. IaC ensures that every deployment follows the exact same specifications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Page Not Found</title>
+      <link>https://nathanfishel.com/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathanfishel.com/404/</guid>
+      <description>&lt;h1 id=&#34;404---page-not-found&#34;&gt;404 - Page Not Found&lt;/h1&gt;&#xA;&lt;h2 id=&#34;oops-this-page-seems-to-have-wandered-off&#34;&gt;Oops! This page seems to have wandered off&amp;hellip;&lt;/h2&gt;&#xA;&lt;p&gt;The page you&amp;rsquo;re looking for doesn&amp;rsquo;t exist or may have been moved. Don&amp;rsquo;t worry though, there are plenty of other interesting things to explore.&lt;/p&gt;&#xA;&lt;h3 id=&#34;here-are-some-helpful-links-to-get-you-back-on-track&#34;&gt;Here are some helpful links to get you back on track:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nathanfishel.com/&#34;&gt;← Go to Homepage&lt;/a&gt;&lt;/strong&gt; - Start fresh from the homepage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nathanfishel.com/posts/&#34;&gt;View Blog Posts&lt;/a&gt;&lt;/strong&gt; - Read my latest technical articles and insights&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nathanfishel.com/about/&#34;&gt;Learn About Me&lt;/a&gt;&lt;/strong&gt; - Discover my professional background and experience&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nathanfishel.com/contact/&#34;&gt;Get in Touch&lt;/a&gt;&lt;/strong&gt; - Reach out for opportunities or questions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nathanfishel.com/tags/&#34;&gt;Browse by Tags&lt;/a&gt;&lt;/strong&gt; - Explore content organized by topics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;looking-for-something-specific&#34;&gt;Looking for something specific?&lt;/h3&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re searching for a particular article or topic, try:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

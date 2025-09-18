@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Nathan Fishel | Cloud DevOps Engineer</title>
+    <link>https://nathanfishel.com/tags/productivity/</link>
+    <description>Recent content in Productivity on Nathan Fishel | Cloud DevOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Oct 2023 21:37:07 -0400</lastBuildDate>
+    <atom:link href="https://nathanfishel.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Developer Feedback Loop: A Shortcut to Faster Software Shipping</title>
+      <link>https://nathanfishel.com/posts/feedback/</link>
+      <pubDate>Wed, 25 Oct 2023 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/posts/feedback/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve been immersed in the software industry in recent years, you&amp;rsquo;ve likely encountered extensive discussions about developer productivity, developer platforms, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s landscape, where organizations strive to maximize the productivity of their valuable software development teams, various concepts have emerged with bold promises. From the transformative potential of AI to Platform as a Service (PaaS) and Test-Driven Development (TDD), many claim that even solo developers can now accomplish what previously required entire teams.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

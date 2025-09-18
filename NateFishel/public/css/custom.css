@@ -1,0 +1,518 @@
+/* Custom CSS for Professional Website Enhancement */
+
+/* ===== Global Typography & Base Styles ===== */
+body {
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    line-height: 1.7;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+/* Improved heading hierarchy */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+
+/* ===== Navigation Enhancement ===== */
+.header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+}
+
+.nav a {
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    background: rgba(12, 116, 206, 0.1);
+    transform: translateY(-1px);
+}
+
+/* ===== Homepage Enhancements ===== */
+.avatar img {
+    border: 4px solid #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.avatar img:hover {
+    transform: scale(1.05);
+}
+
+.home-description {
+    font-size: 1.2rem;
+    color: #546e7a;
+    margin: 1.5rem 0;
+}
+
+/* ===== Post List Styling ===== */
+.post-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.post-item:hover {
+    padding-left: 10px;
+    background: linear-gradient(
+        to right,
+        rgba(12, 116, 206, 0.05) 0%,
+        transparent 100%
+    );
+}
+
+.post-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.post-title a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: #0c74ce;
+}
+
+.post-date {
+    color: #718096;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ===== Content Area Improvements ===== */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+    color: #4a5568;
+    line-height: 1.8;
+}
+
+.content ul,
+.content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.content li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+/* ===== Code Block Styling ===== */
+pre {
+    background: #2d3748;
+    color: #e2e8f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+code {
+    background: #edf2f7;
+    color: #e53e3e;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Code", monospace;
+}
+
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* ===== Tag Styling ===== */
+.tag {
+    display: inline-block;
+    background: #edf2f7;
+    color: #4a5568;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.tag:hover {
+    background: #0c74ce;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(12, 116, 206, 0.2);
+}
+
+/* ===== Footer Enhancement ===== */
+.footer {
+    background: #f7fafc;
+    padding: 3rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.social-icons a {
+    color: #718096;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0c74ce;
+    transform: translateY(-3px);
+}
+
+/* ===== About Page Enhancements ===== */
+.about-content h2 {
+    color: #0c74ce;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid #0c74ce;
+}
+
+.about-content h3 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.about-content h4 {
+    color: #4a5568;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.about-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-content ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-content ul li:before {
+    content: "▸";
+    color: #0c74ce;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Professional Summary Section */
+.about-content h2:first-of-type + p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+}
+
+/* Core Competencies Styling */
+.about-content h3:contains("Core Competencies") + p {
+    background: #f7fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.about-content p strong {
+    color: #1a202c;
+    font-weight: 600;
+}
+
+/* Experience Timeline */
+.about-content h4 {
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-content h4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: #0c74ce;
+    border-radius: 50%;
+}
+
+/* Education Section */
+.about-content h3 + p strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #1a202c;
+    margin-bottom: 0.25rem;
+}
+
+/* Certification List */
+.about-content ul li strong {
+    color: #0c74ce;
+}
+
+/* Technical Projects */
+.about-content h3:contains("Technical Projects") + ul li {
+    background: #f7fafc;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 0.75rem;
+    border-left: 3px solid #0c74ce;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Professional Interests */
+.about-content h3:contains("Professional Interests") + p {
+    font-size: 1rem;
+}
+
+.about-content p:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+/* Skills Tags */
+.about-content p:last-child {
+    margin-top: 1.5rem;
+}
+
+.about-content p:last-child > * {
+    background: #edf2f7;
+    color: #4a5568;
+    padding: 0.375rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.about-content p:last-child > *:hover {
+    background: #0c74ce;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .post-item {
+        padding: 1rem 0;
+    }
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content > * {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* ===== Button Styling ===== */
+.button,
+button[type="submit"] {
+    background: #0c74ce;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover,
+button[type="submit"]:hover {
+    background: #0a5ca8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(12, 116, 206, 0.25);
+}
+
+/* ===== Link Improvements ===== */
+a {
+    color: #0c74ce;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #0a5ca8;
+}
+
+/* ===== Blockquote Styling ===== */
+blockquote {
+    border-left: 4px solid #0c74ce;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: #546e7a;
+    background: #f7fafc;
+    padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+table th {
+    background: #f7fafc;
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #0c74ce;
+}
+
+table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+table tr:hover {
+    background: #f7fafc;
+}
+
+/* ===== Smooth Scrolling ===== */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== Selection Color ===== */
+::selection {
+    background: rgba(12, 116, 206, 0.2);
+    color: #1a202c;
+}
+
+/* ===== LinkedIn-Style About Page ===== */
+.about-page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+
+.about-page-header h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Company/Date Styling */
+.about-content h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2d3748;
+}
+
+.about-content h4::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e2e8f0;
+    margin-left: 1rem;
+}
+
+/* Hover Effects for Sections */
+.about-content h3,
+.about-content h4 {
+    transition: color 0.3s ease;
+}
+
+.about-content h3:hover,
+.about-content h4:hover {
+    color: #0c74ce;
+}
+
+/* Mobile Optimization for About Page */
+@media (max-width: 768px) {
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .about-content h4 {
+        font-size: 1.1rem;
+    }
+}

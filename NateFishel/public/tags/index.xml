@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nathan Fishel | Cloud DevOps Engineer</title>
+    <link>https://nathanfishel.com/tags/</link>
+    <description>Recent content in Tags on Nathan Fishel | Cloud DevOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2023 22:12:49 -0500</lastBuildDate>
+    <atom:link href="https://nathanfishel.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://nathanfishel.com/tags/ai/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://nathanfishel.com/tags/api/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT</title>
+      <link>https://nathanfishel.com/tags/gpt/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/tags/gpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://nathanfishel.com/tags/python/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://nathanfishel.com/tags/devops/</link>
+      <pubDate>Wed, 25 Oct 2023 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://nathanfishel.com/tags/productivity/</link>
+      <pubDate>Wed, 25 Oct 2023 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://nathanfishel.com/tags/cloud/</link>
+      <pubDate>Sun, 23 Oct 2022 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IaC</title>
+      <link>https://nathanfishel.com/tags/iac/</link>
+      <pubDate>Sun, 23 Oct 2022 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/tags/iac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://nathanfishel.com/tags/terraform/</link>
+      <pubDate>Sun, 23 Oct 2022 21:37:07 -0400</pubDate>
+      <guid>https://nathanfishel.com/tags/terraform/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

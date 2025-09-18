@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPT on Nathan Fishel | Cloud DevOps Engineer</title>
+    <link>https://nathanfishel.com/tags/gpt/</link>
+    <description>Recent content in GPT on Nathan Fishel | Cloud DevOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2023 22:12:49 -0500</lastBuildDate>
+    <atom:link href="https://nathanfishel.com/tags/gpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empowering Your Application: Crafting an AI Agent with OpenAI&#39;s GPT</title>
+      <link>https://nathanfishel.com/posts/agent/</link>
+      <pubDate>Thu, 07 Dec 2023 22:12:49 -0500</pubDate>
+      <guid>https://nathanfishel.com/posts/agent/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;This post was originally intended to be a single comprehensive piece. However, due to the upcoming holidays and family commitments,&#xA;I&amp;rsquo;ve decided to split it into multiple parts. Part one will cover the usage of OpenAI&amp;rsquo;s text completion API via Python. Part two will demonstrate how to parse responses to call your own API.&#xA;Finally, in part three, I&amp;rsquo;ll guide you through setting up an API to interact with your Python program and building an embeddable chat interface for web applications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
