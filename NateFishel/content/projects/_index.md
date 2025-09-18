@@ -29,6 +29,15 @@ Here's a collection of projects I've built and contributed to. These showcase my
 
 ---
 
+#### **FitDecoder**
+*High-performance Elixir library for decoding Garmin .fit files*
+
+- **Technologies:** Elixir, C++, NIF (Native Implemented Functions), Garmin FIT SDK
+- **Description:** FitDecoder is a high-performance Elixir library for decoding Garmin .fit files. It uses a C++ NIF (Native Implemented Function) to wrap the official Garmin FIT C++ SDK, providing a fast and efficient way to extract data from activity files directly within the Elixir ecosystem.
+- **Link:** [GitHub Repository](https://github.com/nfishel48/fit-decoder)
+
+---
+
 ### 📫 Get Involved
 
 I'm always interested in collaborating on interesting projects. If you'd like to contribute to any of these projects or have ideas for collaboration, feel free to:

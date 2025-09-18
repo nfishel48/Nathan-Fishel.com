@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nathanfishel.com/tags/concurrency/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/tags/devops/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/tags/elixir/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/tags/phoenix/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/posts/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/tags/side-project/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/tags/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
+    <loc>https://nathanfishel.com/posts/whyelixir/</loc>
+    <lastmod>2025-09-17T23:01:03-04:00</lastmod>
+  </url><url>
     <loc>https://nathanfishel.com/tags/ai/</loc>
     <lastmod>2023-12-07T22:12:49-05:00</lastmod>
   </url><url>
@@ -14,20 +41,8 @@
     <loc>https://nathanfishel.com/tags/gpt/</loc>
     <lastmod>2023-12-07T22:12:49-05:00</lastmod>
   </url><url>
-    <loc>https://nathanfishel.com/</loc>
-    <lastmod>2023-12-07T22:12:49-05:00</lastmod>
-  </url><url>
-    <loc>https://nathanfishel.com/posts/</loc>
-    <lastmod>2023-12-07T22:12:49-05:00</lastmod>
-  </url><url>
     <loc>https://nathanfishel.com/tags/python/</loc>
     <lastmod>2023-12-07T22:12:49-05:00</lastmod>
-  </url><url>
-    <loc>https://nathanfishel.com/tags/</loc>
-    <lastmod>2023-12-07T22:12:49-05:00</lastmod>
-  </url><url>
-    <loc>https://nathanfishel.com/tags/devops/</loc>
-    <lastmod>2023-10-25T21:37:07-04:00</lastmod>
   </url><url>
     <loc>https://nathanfishel.com/tags/productivity/</loc>
     <lastmod>2023-10-25T21:37:07-04:00</lastmod>

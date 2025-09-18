@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Side Project on Nathan Fishel | Cloud DevOps Engineer</title>
+    <link>https://nathanfishel.com/tags/side-project/</link>
+    <description>Recent content in Side Project on Nathan Fishel | Cloud DevOps Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Sep 2025 23:01:03 -0400</lastBuildDate>
+    <atom:link href="https://nathanfishel.com/tags/side-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Chose Elixir &amp; Phoenix for My High-Throughput Sports Analytics Platform</title>
+      <link>https://nathanfishel.com/posts/whyelixir/</link>
+      <pubDate>Wed, 17 Sep 2025 23:01:03 -0400</pubDate>
+      <guid>https://nathanfishel.com/posts/whyelixir/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://nathanfishel.com/images/cardinal-dashboard.jpg&#34; alt=&#34;alt text&#34; title=&#34;A dashboard showing sports analytics data&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-challenge-a-tsunami-of-athlete-data&#34;&gt;The Challenge: A Tsunami of Athlete Data&lt;/h2&gt;&#xA;&lt;p&gt;When I first started building Cardinal, my sports load forecasting side project, I hit a massive technical wall almost immediately. The core idea was to process a firehose of data from athlete wearables in real-time, run complex analytics, and instantly serve those insights to users. But how could one person build a system that wouldn’t buckle under that kind of load?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

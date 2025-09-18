@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #0c74ce;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Why I Chose Elixir &amp; Phoenix for My High-Throughput Sports Analytics Platform</title>
+    <meta name="description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta name="keywords" content='Nathan Fishel, Cloud DevOps Engineer, AWS, Azure, Terraform, Infrastructure as Code, Python, Go, DevOps, Cloud Solutions, Autodesk, Software Engineering, Elixir, Phoenix, Concurrency, Side Project'>
+
+    <meta property="og:url" content="https://nathanfishel.com/posts/whyelixir/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Why I Chose Elixir &amp; Phoenix for My High-Throughput Sports Analytics Platform">
+    <meta property="og:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="og:image" content="https://nathanfishel.com/images/avatar.jpg">
+    <meta property="og:image:secure_url" content="https://nathanfishel.com/images/avatar.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Why I Chose Elixir &amp; Phoenix for My High-Throughput Sports Analytics Platform">
+    <meta name="twitter:description" content="Cloud DevOps Engineer at Autodesk | AWS &amp; Azure Specialist | Building scalable infrastructure solutions with Go, Python, and Terraform">
+    <meta property="twitter:domain" content="https://nathanfishel.com/posts/whyelixir/">
+    <meta property="twitter:url" content="https://nathanfishel.com/posts/whyelixir/">
+    <meta name="twitter:image" content="https://nathanfishel.com/images/avatar.jpg">
+
+    
+    <link rel="canonical" href="https://nathanfishel.com/posts/whyelixir/" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.a36f1b6a4f5febef42d44c3508b4dc493d11997d01f0359f4df1cde77aac8cc5.js" integrity="sha256-o28bak9f6&#43;9C1Ew1CLTcST0RmX0B8DWfTfHN53qsjMU="></script>
+
+    
+    
+    <script defer data-domain="nathanfishel.com" src="https://plausible.io/js/plausible.js"></script>
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://nathanfishel.com/">
+                <img src='/images/avatar.jpg' alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://nathanfishel.com/">Nathan Fishel | Cloud DevOps Engineer</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/about/"> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/projects/"> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://nathanfishel.com/contact/"> Contact </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/about/"> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/projects/"> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://nathanfishel.com/contact/"> Contact </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Why I Chose Elixir &amp; Phoenix for My High-Throughput Sports Analytics Platform</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">September 17, 2025
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/elixir">Elixir</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/phoenix">Phoenix</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/concurrency">Concurrency</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/devops">DevOps</a></li>
+        
+            <li class="post-tag"><a href="https://nathanfishel.com/tags/side-project">Side Project</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><img src="/images/cardinal-dashboard.jpg" alt="alt text" title="A dashboard showing sports analytics data"></p>
+<h2 id="the-challenge-a-tsunami-of-athlete-data">The Challenge: A Tsunami of Athlete Data</h2>
+<p>When I first started building Cardinal, my sports load forecasting side project, I hit a massive technical wall almost immediately. The core idea was to process a firehose of data from athlete wearables in real-time, run complex analytics, and instantly serve those insights to users. But how could one person build a system that wouldn’t buckle under that kind of load?</p>
+<p>My system had to meet two demanding, simultaneous requirements:</p>
+<ol>
+<li><strong>Massive Ingestion and Processing:</strong> Each incoming data point kicks off a complex, multi-stage pipeline I designed—downloading files, parsing binary data, running calculations, updating forecasts, and storing results. This is heavy, asynchronous background work that absolutely cannot interfere with the user experience.</li>
+<li><strong>Real-Time Delivery:</strong> At the same time, coaches and trainers are logged in, watching dashboards, and expecting to see insights from this data the moment it&rsquo;s processed. I needed to provide a responsive, real-time connection.</li>
+</ol>
+<p>A traditional threaded web framework would mean spinning up threads for background jobs and using another set of threads to handle user requests. I knew from experience this would lead to resource contention, complex state management, and a constant battle against performance bottlenecks. I needed something fundamentally different if I was going to pull this off alone.</p>
+<h2 id="why-elixir-the-superpower-of-concurrency">Why Elixir? The Superpower of Concurrency</h2>
+<p>I chose Elixir because it&rsquo;s built on the Erlang Virtual Machine (BEAM), a battle-tested platform created to run the world&rsquo;s telephone systems. Its purpose was to handle millions of concurrent connections with extreme reliability. It achieves this not with heavy operating system threads, but with incredibly lightweight &ldquo;processes.&rdquo;</p>
+<p>Here’s the analogy I use: a traditional framework is like a factory with a few large, heavy-duty conveyor belts (threads). If one gets jammed, it can slow everything down. The BEAM, on the other hand, is like giving me millions of tiny, intelligent drones (processes) that can each carry a small task independently. If one drone fails, it doesn’t affect the others, and a &ldquo;supervisor&rdquo; drone I’ve set up can instantly launch a new one to take its place.</p>
+<p>This is the &ldquo;let it crash&rdquo; philosophy that makes Elixir systems so fault-tolerant. In Cardinal, this means if the parsing of one athlete&rsquo;s file fails, it won&rsquo;t crash the ingestion pipeline for every other athlete. My supervisor simply logs the error and moves on.</p>
+<h2 id="my-architecture-in-action">My Architecture in Action</h2>
+<p>The elegance of Elixir and Phoenix allowed me to build a system that is both powerful and surprisingly simple. When a new activity file is ready from Garmin, their server sends a &ldquo;ping&rdquo; to one of my Phoenix endpoints. This endpoint is incredibly lean; its only job is to acknowledge the request and immediately schedule a background job using <strong>Oban</strong>, a robust job processing library for Elixir.</p>
+<p>As you can see in my <code>GarminActivityWorker</code>, this job then takes over the heavy lifting: securely downloading the file, calling a native C++ <code>FitDecoder</code> NIF I wrote to parse the binary data, and storing the raw &ldquo;seconds&rdquo; data. By offloading this work instantly, my web server stays free to handle user requests without getting bogged down. Because Elixir processes are so cheap, I can run tens of thousands of these ingestion jobs concurrently without my server breaking a sweat.</p>
+<h2 id="the-killer-feature-real-time-dashboards">The Killer Feature: Real-Time Dashboards</h2>
+<p>My favorite feature in Cardinal is the live-updating chart. A coach can literally watch a player&rsquo;s performance metrics change in real-time as new data is processed. I was able to build this thanks to <strong>Phoenix Channels</strong>, a seamless abstraction over WebSockets.</p>
+<p>The flow I designed is beautiful in its simplicity:</p>
+<ol>
+<li>A background worker, like my <code>MetricsWorker</code>, finishes its calculations.</li>
+<li>It publishes an update using <code>Phoenix.PubSub</code> to a topic, like <code>&quot;team:123&quot;</code>.</li>
+<li>Every user subscribed to that topic via their <code>UserSocket</code> instantly receives the new data.</li>
+<li>The frontend JavaScript updates the charts.</li>
+</ol>
+<p>This entire process, from data ingestion to a visual update on a user&rsquo;s screen, happens in seconds. And the scalability is astounding. A single Phoenix server can handle up to <strong>2 million simultaneous WebSocket connections</strong>.</p>
+<h2 id="the-payoff-performance-scalability-and-cost">The Payoff: Performance, Scalability, and Cost</h2>
+<p>The raw power and efficiency of the BEAM have a direct impact on this project. As I mentioned in my tweet, a single Phoenix server can process an estimated <strong>17,000 Oban jobs per second</strong>.</p>
+<p>What does this mean for me? I can handle a massive volume of data and a large number of real-time users with a remarkably small server footprint. This translates directly to <strong>lower infrastructure costs</strong>, a crucial factor for a personal side project. Choosing Elixir and Phoenix wasn&rsquo;t just about picking a cool technology; it was about leveraging a platform purpose-built for the exact problem I was trying to solve.</p>
+
+        </p>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2025 Nathan Fishel | Cloud DevOps Engineer | Royal Oak, Michigan</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
